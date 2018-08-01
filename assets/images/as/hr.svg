@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1601 2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #707070;
+        stroke-linecap: round;
+        stroke-width: 2px;
+        stroke-dasharray: 6 10;
+      }
+    </style>
+  </defs>
+  <path id="Path_123973" data-name="Path 123973" class="cls-1" d="M0,0H1599" transform="translate(1 1)"/>
+</svg>
