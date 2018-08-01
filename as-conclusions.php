@@ -49,7 +49,7 @@ get_header(); ?>
                         </div>
 
                         <div class="tv__heroes">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/conclusions_hero.svg"  width="1556" alt="">
+                                <img class="conclusion_hero" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/conclusions_hero.svg"  width="1556" alt="">
                         </div>
                 </div>  
                 </section>

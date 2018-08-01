@@ -52,6 +52,12 @@ $gray: #707070;
     grid-template-rows: 1fr;
     padding: 5rem 7.5rem;
     position: relative;
+    div:nth-child(1){
+        padding-right: 3rem;
+        @include breakpoint(medium down) {
+            padding-right: 0;
+        }
+    }
     @include breakpoint(large down) {
         grid-template-columns: 1fr;
     }
@@ -76,14 +82,21 @@ $gray: #707070;
     justify-content: space-between;
     div{
         max-width: 50%;
-        padding: 0 0.5rem;
+        padding: 0 0.7rem;
         @include breakpoint(medium down) {
+            max-width: 100%;
+        }
+        @include breakpoint(large down) {
             max-width: 100%;
         }
     }
     @include breakpoint(medium down) {
         flex-direction: column;
     }
+    @include breakpoint(large down) {
+        flex-direction: column;
+    }
+    
 }
 
 .section_03{
@@ -247,16 +260,22 @@ p{
     @include breakpoint(medium down) {
         width: 100%;
     }
+    @include breakpoint(large down) {
+        width: 100%;
+    }
     img{
         position: relative;
         right: -7.5rem;
-        margin-top: 0;
-        margin-bottom: 0;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
         @include breakpoint(medium down) {
             width: 100%;
             right: -3.4rem;
             margin-top: 1rem;
             margin-bottom: 2rem;
+        }
+        @include breakpoint(onesix down) {
+            margin-top: 8rem;
         }
     }
 }
@@ -275,8 +294,14 @@ p{
 }
 
 .conclusions__content__wrapper{
-    margin-top: 25vh;
+    margin-top: 35vh;
     @include breakpoint(medium down) {
+        margin-top: 0;
+    }
+    @include breakpoint(large down) {
+        margin-top: 0;
+    }
+    @include breakpoint(xxlarge down) {
         margin-top: 0;
     }
 }
@@ -350,6 +375,14 @@ hr{
         padding: 0rem 3.5rem;
     }
 
+    @include breakpoint(large down) {
+        
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
     h4{
         color: $blue;
     }
@@ -367,6 +400,11 @@ hr{
         margin-right: 1rem;
         @include breakpoint(medium down) {
             margin-right: 0rem;
+            margin-bottom: 0rem;
+        }
+        @include breakpoint(large down) {
+            margin-right: 0rem;
+            margin-bottom: 2rem;
         }
     }
 }
@@ -381,6 +419,16 @@ hr{
     position: absolute;
     top: 0;
     left: 0;
+    img{
+        width:100%;
+        @include breakpoint(large only) {
+            width: 50%;
+        }
+        @include breakpoint(xxlarge only) {
+            width: 100%;
+        }
+        
+    }
 }
 
 
@@ -471,21 +519,36 @@ hr{
     // border: 1px solid red;
     justify-content: center;
     margin-right: 3rem;
+    margin-left: 0rem;
     a{
         font: 900 0.75rem/130% Century Gothic,CenturyGothic,AppleGothic,sans-serif;    
         color: $gray;
     }
     img{
+        height: 1px;
         margin: 1rem 0;
         @include breakpoint(medium down) {
             margin: 0.5rem 0;
         }
     }
-}
-
-#section_01_conclusions{
-    margin-top: 0;
-    @include breakpoint(medium down) {
-        margin-top: 25rem;
+    @include breakpoint(xxlarge down) {
+        margin-right: 1rem;
+        margin-left: 1rem;
     }
 }
+
+.section_01_conclusions{
+    margin-top: 0;
+    position: relative;
+    z-index: 99;
+    @include breakpoint(medium only) {
+        margin-top: 18rem;
+    }
+    @include breakpoint(large only) {
+        margin-top: 28rem;
+    }
+    @include breakpoint(xxlarge only) {
+        margin-top: 0rem;
+    }
+}
+
