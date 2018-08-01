@@ -13,7 +13,7 @@ get_header(); ?>
 				
                 <section id="media">
 
-
+<!-- asd -->
                         <div class="section_01">
                                 <div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/page-social.svg" height="467" width="342.37" alt=""></div>
                                 <div class="top__navigation">
