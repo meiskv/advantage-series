@@ -217,6 +217,8 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    position: relative;
+    z-index: 99;
     @include breakpoint(medium down) {
       justify-content: center;
     }
