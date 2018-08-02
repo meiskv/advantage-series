@@ -571,5 +571,14 @@ hr{
     justify-content: flex-end;
     padding-right: 7.5rem;
     padding-top: 1rem;
+    @include breakpoint(medium down) {
+        justify-content: center;
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
 }
 
+.scrolltop{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}

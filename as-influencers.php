@@ -33,30 +33,30 @@ get_header(); ?>
                         <div class="section_02">
                                 <div>
                                         <h3>Social Influencers</h3>
-                                        <h5>Love them or loathe them, and despite the evident growing pains of this still-evolving field, social influencers are here to stay. But people’s desire to engage with ‘people like me’, rather than the aloof mega-influencer, has led to the emergence of the ‘micro-influencer’. And many of the old rules don’t apply to them. They hold enormous influence with their followings, in their cities, and an honest and authentic connection with their community (both physical and social) is required to tap into that.</h5>
+                                        <h5>Love them or loathe them, and despite the evident growing pains of this still-evolving field, social influencers are here to stay. People’s desire to engage with ‘people like me’, rather than the aloof mega-influencer, has led to the emergence of the ‘micro-influencer’. Many of the old rules don’t apply to them. They hold enormous influence with their followings and in their cities, and an honest and authentic connection with their community (both physical and social) is required to tap into that.</h5>
                 
                                         <p><b class="description__header">People like ‘people like me’</b></p>
-                                        <p>On every social media platform, you will find mega influencers. Individuals like Zoella have cleverly and assiduously turned themselves into brands, with millions of followers, and the ability to transform the reputation of a brand or product simply by anointing it with their seal of approval. Influencer marketing is big business, with AdWeek estimating its value at $10bn by 2020, and Instagram influencer marketing alone now a $1bn industry. </p>
+                                        <p>On every social media platform, you will find mega influencers. Individuals like Zoella have cleverly and assiduously turned themselves into brands, with millions of followers, and the ability to transform the reputation of a brand or product simply by anointing it with their seal of approval. Influencer marketing is big business, with AdWeek estimating its value at $10 billion by 2020, and Instagram influencer marketing alone now a $1 billion industry. </p>
                 
                                         <p>But over the last two years we have begun to see influencer fatigue. </p>
                 
                                         <p>From the consumer’s point of view, these mega influencers have become as remote and aloof as Hollywood movie stars, whose lives we may admire and even covet, but are unattainable to most mere mortals.</p>
                 
-                                        <p>Enter the ‘micro influencer’. These are individuals who are not necessarily setting out to attain big followings, or become famous, but have built up smaller yet more loyal followings by being authentic and honest about the things in which they are expert, or about which they are passionate. </p>
+                                        <p>Enter the ‘micro-influencer’. These are individuals who are not necessarily setting out to attain big followings, or become famous, but have built up smaller yet more loyal followings by being authentic and honest about the things in which they are expert, or about which they are passionate. </p>
                 
                                         <p>These are “people like me”, whose opinions on fashion, lifestyle, sports, music and other areas make them real taste-makers. Especially in cities. Eighty-two per cent of city dwellers say they would follow a recommendation to purchase from a micro-influencer, and influencer content can deliver an ROI that is as much as 11 times higher than traditional forms of digital marketing.</p>
                                         <br/>
                                         <p><b class="description__header">Keeping it real</b></p>
-                                        <p>The key to effective influencer partnerships is authenticity. And in adopting a city-centric marketing or communications strategy, this means recognizing that one size does not fit all. There is no template that will work 100% for every city.</p>
+                                        <p>The key to effective influencer partnerships is authenticity. In adopting a city-centric marketing or communications strategy, this means recognizing that one size does not fit all. There is no template that will work 100% for every city.</p>
                 
-                                        <p>Just as every city is different, so too is every micro influencer. And because they are less driven by the high fees demanded by their mega-influencer counterparts, success relies on creating some kind of value exchange, a genuine partnership that benefits their followers and communities, while simultaneously enhancing their reputations. For this, on-the-ground intelligence and creativity are essential.</p>
+                                        <p>Just as every city is different, so too is every micro-influencer. And because they are less driven by the high fees demanded by their mega-influencer counterparts, success relies on creating some kind of value exchange, a genuine partnership that benefits their followers and communities, while simultaneously enhancing their reputations. For this, on-the-ground intelligence and creativity are essential.</p>
                                         <br/>
                                         <p><b class="description__header">Influence IRL</b></p>
-                                        <p>One key benefit of working with micro influencers is their accessibility.</p>
+                                        <p>One key benefit of working with micro-influencers is their accessibility.</p>
                 
                                         <p>Grayling’s own #InsideInfluence research in the US last year showed the enduring power of face-to-face recommendations, and other research bears this out.</p>
                 
-                                        <p>The opportunity, therefore, is to employ these micro influencers as means of reaching urbanites in their geographic and / or interest-led communities, through real world events. This is especially important when one considers the widespread use of ‘dark social’ or private networks. Real world events are one way of drawing these networks into the light, and smart brands like Airbnb, Puma and others, are doing just this - building alliances with niche urban influencers and their tribes across the world, providing access to creative events and unique opportunities that deliver far-reaching cultural interactions and long-lasting brand affinity.</p>
+                                        <p>The opportunity, therefore, is to employ these micro-influencers as means of reaching urbanites in their geographic and / or interest-led communities, through real world events. This is especially important when one considers the widespread use of ‘dark social’ or private networks. Real world events are one way of drawing these networks into the light, and smart brands like Airbnb, Puma and others, are doing just this - building alliances with niche urban influencers and their tribes across the world, providing access to creative events and unique opportunities that deliver far-reaching cultural interactions and long-lasting brand affinity.</p>
                                         
                                 </div>
 
@@ -73,12 +73,12 @@ get_header(); ?>
                 </div> -->
                 <div id="key__takeaways">
 
-                    <h4>New Nations and Social Influencers: Key Take-aways</h4>
+                    <h4>New Nations and Social Influencers: Key Take-Aways</h4>
 
                     <div class="take__aways__blobs">
                         <div>
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/social_ta_beautiful.svg" height="432" width="354" alt="">
-                            <p><b>Small is beautiful:</b> Micro influencers hold more sway over their geographic and interest-led communities than mega-influencers. Forget reach, engagement is key</p>
+                            <p><b>Small is beautiful:</b> Micro-influencers hold more sway over their geographic and interest-led communities than mega-influencers. Forget reach, engagement is key</p>
                         </div>
                         <div>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/social_ta_authenticity.svg" height="432" width="354" alt="">
@@ -86,7 +86,7 @@ get_header(); ?>
                         </div>
                         <div>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/social_ta_interaction.svg" height="432" width="354" alt="">
-                                <p>Working with micro influencers affords opportunities for real world interaction – which also needs to be authentic and tailored to the city and community in question</p>
+                                <p>Working with micro-influencers affords opportunities for <b>real world interaction</b> – which also needs to be authentic and tailored to the city and community in question</p>
                         </div>
                     </div>
 

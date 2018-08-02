@@ -25,27 +25,27 @@ get_header(); ?>
                     <div>
                         <h1>New Nations</h1>
                         <h4>Cities are the new nations.<br/>That may sound like a bold statement, but consider the evidence.</h4>
-                        <p><b>More of us are city dwellers:</b> For the first time, in history, more people live in urban areas than not. According to the United Nations, 54.5% of the world’s population lives in urban areas, a proportion that is expected to increase to 60% by 2030, by which time one in three people on the planet will live in a city of at least half a million inhabitants.</p>
+                        <p><b>More of us are city dwellers:</b> For the first time in history, more people live in urban areas than not. According to the <a href="http://www.un.org/en/development/desa/population/publications/pdf/urbanization/the_worlds_cities_in_2016_data_booklet.pdf">United Nations</a> , 54.5% of the world’s population lives in urban areas, a proportion that is expected to increase to 60% by 2030, by which time one in three people on the planet will live in a city of at least half a million inhabitants.</p>
 
-                        <p><b>There are more cities than ever: </b>The number of cities, of every size, is increasing. In 2016 there were an estimated 1,063 settlements of more than half a million people; by 2030 there are forecast to be almost 1,400, housing more than five billion people.
+                        <p><b>There are more cities than ever: </b>Cities are increasing in number. In 2016 there were an <a href="http://www.un.org/en/development/desa/population/publications/pdf/urbanization/the_worlds_cities_in_2016_data_booklet.pdf"></a> 1,063 settlements of more than half a million people; by 2030 there are forecast to be almost 1,400, housing more than five billion people.
                         </p>
 
-                        <p><b>Cities are getting bigger:</b> Not only are cities in creasing in number, they are increasing in size. By 2030, there will be ten more ‘megacities’, with populations over 10 million, than there are today.
+                        <p><b>Cities are getting bigger:</b> Not only is the number of cities increasing, they are <a href="http://www.un.org/en/development/desa/population/publications/pdf/urbanization/the_worlds_cities_in_2016_data_booklet.pdf">increasing in size</a> . By 2030, there will be ten more ‘megacities’, cities with populations over 10 million, than there are today.
                         </p>
 
-                        <p><b>Cities are economic powerhouses:</b> McKinsey estimates that by 2025, the world’s top 600 cities (by contribution to global GDP) will have economies worth $64 trillion, almost 60% of global GDP.
+                        <p><b>Cities are economic powerhouses:</b> <a href="https://www.mckinsey.com/~/media/mckinsey/featured%20insights/Urbanization/Urban%20world/MGI_urban_world_mapping_economic_power_of_cities_exec_summary.ashx"></a> estimates that by 2025, the world’s 600 top earning cities by contribution to global GDP will have economies worth $64 trillion, almost 60% of global GDP.
                         </p>
 
-                        <p><b>Cities are centers of cultural influence:</b> From high art to street culture, food to fashion, music to murals, cultural trends start in cities.
+                        <p><b>Cities are centers of cultural influence:</b> From high art to street culture, food to fashion, music to murals, <a href="https://www.britishcouncil.org/sites/default/files/g229_cities_paper.pdf">cultural trends</a> start in cities.
                         </p>
 
-                        <p><b>Cities are leading social change:</b> he juxtaposition of people of different cultures, and the relative concentration of younger people, puts cities at the leading edge of social change, be that the liberalization of abortion laws in the Republic of Ireland or calls for gun control in the United States.</p>
+                        <p><b>Cities are leading social change:</b> he juxtaposition of people of different cultures and the relative concentration of younger people puts cities at the leading edge of social change, be that the liberalization of abortion laws in Dublin or calls for gun control in New York City.</p>
 
-                        <p>It is therefore no surprise that in our #6into18 trends analysis, we identified how cities are increasingly becoming focal points for professional marketers and communicators, with city-focused campaigns even supplanting national or regional ones. If cities are where the people are, where the tastemakers are, and where the money is, why waste marketing dollars anywhere else?</p>
+                        <p>It is therefore no surprise that in our #6into18 trends analysis, we identified cities as focal points for professional marketers and communicators, with city-focused campaigns even supplanting national or regional ones. If cities are where the people are, where the tastemakers are, and where the money is, why waste marketing dollars anywhere else?</p>
 
                         <p>But it’s not that simple.</p>
 
-                        <p>Much like countries, no two cities are the same. In New Nations, we look at the four overlapping spheres of influence at play, and offer clues for navigating them.</p>
+                        <p>Much like countries, no two cities are the same. In New Nations, we look at the four overlapping spheres of influence at play and offer clues for navigating them.</p>
 
                         <div class="meta__handle">
                             <div>
@@ -56,7 +56,7 @@ get_header(); ?>
                                 <h5>Global Head of Strategic Services - Grayling</h5>
                             </div>
                         </div>
-                        <h3>Anatomy of a city:<br/> Influence and Impact</h3>
+                        <h3>Anatomy of a City:<br/> Influence and Impact</h3>
                         <p><b>In any city, there is a delicate ecosystem of influence and impact.</b></p>
                         <p>While national government policies have a local impact, cities are increasingly able to influence these as a result of their economic and demographic clout.
                         </p>
@@ -20915,6 +20915,10 @@ get_header(); ?>
                                 <p>To learn how Grayling can help your organisation understand and harness today’s changing influence and create city-centric communication strategies, get in touch with Jon Meakin: </p>
                                 <a href="mailto:jon.meakin@grayling.com">jon.meakin@grayling.com</a>
                         </div>
+                        <div class="scrolltop">
+                            <img src="<?php echo get_template_directory_uri();?>/assets/images/as/scroll-top.svg" height="65" width="75" />
+                        </div>
+                        <div>SCROLL TOP</div>
                     </div>
 			</main> <!-- end #main -->
 		    
