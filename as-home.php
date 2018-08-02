@@ -25,12 +25,12 @@ get_header(); ?>
                     <div>
                         <h1>New Nations</h1>
                         <h4>Cities are the new nations.<br/>That may sound like a bold statement, but consider the evidence.</h4>
-                        <p><b>More of us are city dwellers:</b> For the first time in history, more people live in urban areas than not. According to the <a href="http://www.un.org/en/development/desa/population/publications/pdf/urbanization/the_worlds_cities_in_2016_data_booklet.pdf">United Nations</a> , 54.5% of the world’s population lives in urban areas, a proportion that is expected to increase to 60% by 2030, by which time one in three people on the planet will live in a city of at least half a million inhabitants.</p>
+                        <p><b>More of us are city dwellers:</b> For the first time in history, more people live in urban areas than not. According to the <a href="http://www.un.org/en/development/desa/population/publications/pdf/urbanization/the_worlds_cities_in_2016_data_booklet.pdf">United Nations</a>, 54.5% of the world’s population lives in urban areas, a proportion that is expected to increase to 60% by 2030, by which time one in three people on the planet will live in a city of at least half a million inhabitants.</p>
 
                         <p><b>There are more cities than ever: </b>Cities are increasing in number. In 2016 there were an <a href="http://www.un.org/en/development/desa/population/publications/pdf/urbanization/the_worlds_cities_in_2016_data_booklet.pdf"></a> 1,063 settlements of more than half a million people; by 2030 there are forecast to be almost 1,400, housing more than five billion people.
                         </p>
 
-                        <p><b>Cities are getting bigger:</b> Not only is the number of cities increasing, they are <a href="http://www.un.org/en/development/desa/population/publications/pdf/urbanization/the_worlds_cities_in_2016_data_booklet.pdf">increasing in size</a> . By 2030, there will be ten more ‘megacities’, cities with populations over 10 million, than there are today.
+                        <p><b>Cities are getting bigger:</b> Not only is the number of cities increasing, they are <a href="http://www.un.org/en/development/desa/population/publications/pdf/urbanization/the_worlds_cities_in_2016_data_booklet.pdf">increasing in size</a>. By 2030, there will be ten more ‘megacities’, cities with populations over 10 million, than there are today.
                         </p>
 
                         <p><b>Cities are economic powerhouses:</b> <a href="https://www.mckinsey.com/~/media/mckinsey/featured%20insights/Urbanization/Urban%20world/MGI_urban_world_mapping_economic_power_of_cities_exec_summary.ashx"></a> estimates that by 2025, the world’s 600 top earning cities by contribution to global GDP will have economies worth $64 trillion, almost 60% of global GDP.
@@ -56,6 +56,7 @@ get_header(); ?>
                                 <h5>Global Head of Strategic Services - Grayling</h5>
                             </div>
                         </div>
+                        <br/>
                         <h3>Anatomy of a City:<br/> Influence and Impact</h3>
                         <p><b>In any city, there is a delicate ecosystem of influence and impact.</b></p>
                         <p>While national government policies have a local impact, cities are increasingly able to influence these as a result of their economic and demographic clout.
@@ -20907,7 +20908,7 @@ get_header(); ?>
 
 
 
-                <div class="contact">
+                <div class="contact-home">
                         <div>
                             <img src="<?php echo get_template_directory_uri();?>/assets/images/as/contact.svg" width="92" height="64" alt="">
                         </div>

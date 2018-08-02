@@ -88,7 +88,7 @@ $gray: #707070;
         margin-top: 0rem;
     }
     @include breakpoint(xxlarge only) {
-        margin-top: 22em;
+        margin-top: 0;
     }
     div{
         max-width: 50%;
@@ -105,6 +105,10 @@ $gray: #707070;
     }
     @include breakpoint(large down) {
         flex-direction: column;
+    }
+
+    .conclusions__content__wrapper{
+        padding-top: 0rem;
     }
     
 }
@@ -436,6 +440,58 @@ hr{
     }
 }
 
+.contact-home{
+    padding-top: 5rem;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @include breakpoint(medium down) {
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 3.5rem;
+    }
+
+    @include breakpoint(large down) {
+        
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    h4{
+        color: $blue;
+    }
+    p{
+        color: $blue;
+        max-width: 50vw;
+        @include breakpoint(medium down) {
+            padding-top: 1rem;
+            max-width: 100vw;
+        }
+    }
+    a{
+        font: 900 1rem/130% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+        color: $blue;
+    }
+    div:nth-child(1){
+        margin-bottom: 2rem;
+        @include breakpoint(medium only) {
+            margin-right: 0rem;
+            margin-bottom: 0rem;
+        }
+        @include breakpoint(large only) {
+            margin-right: 0rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
 .page-conclusions{
     .contact{
         padding-top: 0;
@@ -631,7 +687,19 @@ hr{
 }
 
 @media screen and (min-width: 2560px) and (max-width: 2876px) {
-    .contact{
+    .contact-home{
         padding-top: 22rem;
+    }
+
+    .tv__heroes img {
+        position: relative;
+        right: -48rem;
+        margin-top: 0!important;
+        margin-bottom: 0;
+        width: 50%;
+    }
+
+    .conclusions__content__wrapper{
+        padding-top: 0rem;
     }
 }
