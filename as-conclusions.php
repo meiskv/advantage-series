@@ -56,15 +56,16 @@ get_header(); ?>
                 
                
 
+                
                 <div class="contact">
-                    <div>
-                        <img src="<?php echo get_template_directory_uri();?>/assets/images/as/contact.svg" width="92" height="64" alt="">
+                        <div>
+                            <img src="<?php echo get_template_directory_uri();?>/assets/images/as/contact.svg" width="92" height="64" alt="">
+                        </div>
+                        <div>
+                                <p>To learn how Grayling can help your organisation understand and harness todays changing influence, and create city-centric communication strategies, get in touch with Jon Meakin:</p>
+                                <a href="mailto:jon.meakin@grayling.com">jon.meakin@grayling.com</a>
+                        </div>
                     </div>
-                    <div>
-                            <p>For more information on maximizing engagement<br/>with social influencers, contact us at: </p>
-                            <a href="#">email@grayling.com</a>
-                    </div>
-                </div>
 			</main> <!-- end #main -->
 		    
 		</div> <!-- end #inner-content -->

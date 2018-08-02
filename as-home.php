@@ -10,10 +10,20 @@ get_header(); ?>
 		<div class="inner-content grid-x grid-margin-x grid-padding-x as-header">
 	
 		    <main class="main small-12 medium-12 large-12 cell" role="main">
+                
+
+                <div class="main__nav__home">
+                        <div><a class="media_nav" href="<?php echo get_site_url();?>/the-media/"><img class="media_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="225" alt=""></a></div>
+                        <div><a class="interest_nav" href="<?php echo get_site_url();?>/special-interest-groups/"><img class="interest_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="225" alt=""></a></div>
+                        <div><a class="influencers_nav" href="<?php echo get_site_url();?>/social-influencers/"><img class="influencer_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/influencers.svg" height="185" width="225" alt=""></a></div>
+                        <div><a class="government_nav" href="<?php echo get_site_url();?>/government/"><img class="government_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/government.svg" height="185" width="225" alt=""></a></div>
+                </div>
 				
                 <section id="intro">
+
+                    
                     <div>
-                        <h1>Part VI:<br/>New Nations</h1>
+                        <h1>New Nations</h1>
                         <h4>Cities are the new nations.<br/>That may sound like a bold statement, but consider the evidence.</h4>
                         <p><b>More of us are city dwellers:</b> For the first time, in history, more people live in urban areas than not. According to the United Nations, 54.5% of the world’s population lives in urban areas, a proportion that is expected to increase to 60% by 2030, by which time one in three people on the planet will live in a city of at least half a million inhabitants.</p>
 
@@ -20885,15 +20895,27 @@ get_header(); ?>
                     </div>
                     <!-- Animation Ends -->
 
-                    <div class="animation__navigation">
+                    <!-- <div class="animation__navigation">
 
                             <div><a class="media_nav" href="<?php echo get_site_url();?>/the-media/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="225" alt=""></a></div>
                             <div><a class="interest_nav" href="<?php echo get_site_url();?>/special-interest-groups/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="225" alt=""></a></div>
                             <div><a class="influencers_nav" href="<?php echo get_site_url();?>/social-influencers/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/influencers.svg" height="185" width="225" alt=""></a></div>
                             <div><a class="government_nav" href="<?php echo get_site_url();?>/government/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/government.svg" height="185" width="225" alt=""></a></div>
-                    </div>
+                    </div> -->
 
                 </div>
+
+
+
+                <div class="contact">
+                        <div>
+                            <img src="<?php echo get_template_directory_uri();?>/assets/images/as/contact.svg" width="92" height="64" alt="">
+                        </div>
+                        <div>
+                                <p>To learn how Grayling can help your organisation understand and harness today’s changing influence and create city-centric communication strategies, get in touch with Jon Meakin: </p>
+                                <a href="mailto:jon.meakin@grayling.com">jon.meakin@grayling.com</a>
+                        </div>
+                    </div>
 			</main> <!-- end #main -->
 		    
 		</div> <!-- end #inner-content -->

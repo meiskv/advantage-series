@@ -158,9 +158,9 @@ h1,h2,h3,h4,h5{
 
 
 h1{
-    font: 900 5.5625rem/100% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font: 900 3.75rem/100% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     @include breakpoint(medium down) {
-        font: 900 3.5625rem/100% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+        font: 900 1.7rem/100% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     }
 }
 
@@ -282,7 +282,7 @@ p{
 
 
 .news__tv{
-    margin: 3rem 0;
+    margin: 9rem 0;
 }
 
 .five-five-left{
@@ -316,15 +316,24 @@ hr{
     
 }
 
+.gov_img{
+    max-width: unset;
+}
+
 #key__takeaways{
     padding-left: 7.5rem;
     padding-right: 7.5rem;
     padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: $pink;
     @include breakpoint(medium down) {
         padding: 2rem 3.5rem;
     }
     h4{
-        color: $gray;
+        color: #ffffff;
+    }
+    p{
+        color: #ffffff;
     }
 }
 
@@ -333,6 +342,7 @@ hr{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     padding-top: 4.5rem;
+    align-items: flex-start;
     @include breakpoint(medium down) {
         padding-top: 0;
         
@@ -367,8 +377,10 @@ hr{
     padding-right: 7.5rem;
     padding-bottom: 5rem;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     @include breakpoint(medium down) {
         flex-direction: column;
         text-align: center;
@@ -388,6 +400,7 @@ hr{
     }
     p{
         color: $blue;
+        max-width: 50vw;
         @include breakpoint(medium down) {
             padding-top: 1rem;
         }
@@ -397,7 +410,7 @@ hr{
         color: $blue;
     }
     div:nth-child(1){
-        margin-right: 1rem;
+        margin-bottom: 2rem;
         @include breakpoint(medium down) {
             margin-right: 0rem;
             margin-bottom: 0rem;
@@ -550,5 +563,13 @@ hr{
     @include breakpoint(xxlarge only) {
         margin-top: 0rem;
     }
+}
+
+.main__nav__home{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 7.5rem;
+    padding-top: 1rem;
 }
 

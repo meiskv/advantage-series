@@ -48,7 +48,7 @@
 					 <!-- This navs will be applied to the topbar, above all content 
 						  To see additional nav styles, visit the /parts directory -->
 					<div class="top__header">
-						<a href="<?php echo get_site_url();?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/as-logo.png" alt=""></a>
+						<a href="<?php echo get_site_url();?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/as-logo.svg" height="14" width="142.88" alt=""></a>
 					</div> 
 	 	
 				</header> <!-- end .header -->

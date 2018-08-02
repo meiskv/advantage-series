@@ -24,10 +24,10 @@ get_header(); ?>
                                         <img src="<?php echo get_template_directory_uri();?>/assets/images/as/nav-hr.png" alt="">
                                         <a href="<?php echo get_site_url();?>/conclusion-urban-opportunities/">CONCLUSIONS</a>
                                     </div>
-
-                                    <div><a href="<?php echo get_site_url();?>/special-interest-groups/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="225" alt=""></a></div>
-                                    <div><a href="<?php echo get_site_url();?>/social-influencers/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/influencers.svg" height="185" width="225" alt=""></a></div>
-                                    <div><a href="<?php echo get_site_url();?>/government/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/government.svg" height="185" width="225" alt=""></a></div>
+                                    <div><a class="media_nav" href="<?php echo get_site_url();?>/the-media/"><img class="media_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="225" alt=""></a></div>
+                                    <div><a class="interest_nav" href="<?php echo get_site_url();?>/special-interest-groups/"><img class="interest_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="225" alt=""></a></div>
+                                    <div><a class="influencers_nav" href="<?php echo get_site_url();?>/social-influencers/"><img class="influencer_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/influencers.svg" height="185" width="225" alt=""></a></div>
+                                    <div><a class="government_nav" href="<?php echo get_site_url();?>/government/"><img class="government_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/government.svg" height="185" width="225" alt=""></a></div>
                             </div>
                     </div>
 
@@ -80,24 +80,24 @@ get_header(); ?>
                         
                     </div>
                 </section>
-                <div>
+                <!-- <div>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/hr.svg" alt="">
-                </div>
+                </div> -->
                 <div id="key__takeaways">
 
                     <h4>New Nations and the Media: Key Take-aways</h4>
 
                     <div class="take__aways__blobs">
                         <div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media_ta_news.svg" height="auto" width="306" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media_ta_news.svg" height="432" width="354" alt="">
                             <p>Established media brands that have successfully made the transition to a digital-first model retain their focus on major cities, and the combination of reach and authority makes them <b>more influential than ever</b></p>
                         </div>
                         <div>
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media_ta_myriad.svg" height="auto" width="306" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media_ta_myriad.svg" height="432" width="354" alt="">
                                 <p>They, and the newer breed of media, recognize that reaching and engaging audiences does not necessarily require brining people to your main site; social media and other platforms offer <b>myriad engagement opportunities</b></p>
                         </div>
                         <div>
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media_ta_targeting.svg" height="auto" width="306" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media_ta_targeting.svg" height="432" width="354" alt="">
                                 <p>The development of geo-targeting technologies provides opportunities for communicators and marketers to provide city dwellers with the kind of <b>and customized content</b> that is otherwise lacking, given the slow death of local news as we used to know it</p>
                         </div>
                     </div>
@@ -105,14 +105,14 @@ get_header(); ?>
                 </div>
 
                 <div class="contact">
-                    <div>
-                        <img src="<?php echo get_template_directory_uri();?>/assets/images/as/contact.svg" width="92" height="64" alt="">
+                        <div>
+                            <img src="<?php echo get_template_directory_uri();?>/assets/images/as/contact.svg" width="92" height="64" alt="">
+                        </div>
+                        <div>
+                                <p>For details of how to maximise your organisation’s influence through media engagement, contact Ben Petter</p>
+                                <a href="#">email@grayling.com</a>
+                        </div>
                     </div>
-                    <div>
-                            <p>For more information on maximizing engagement<br/>with social influencers, contact us at: </p>
-                            <a href="#">email@grayling.com</a>
-                    </div>
-                </div>
 			</main> <!-- end #main -->
 		    
 		</div> <!-- end #inner-content -->

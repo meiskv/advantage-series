@@ -22,9 +22,10 @@ get_header(); ?>
                                                 <img src="<?php echo get_template_directory_uri();?>/assets/images/as/nav-hr.png" alt="">
                                                 <a href="<?php echo get_site_url();?>/conclusion-urban-opportunities/">CONCLUSIONS</a>
                                             </div>
-                                        <div><a href="<?php echo get_site_url();?>/the-media/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="225" alt=""></a></div>
-                                        <div><a href="<?php echo get_site_url();?>/special-interest-groups/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="225" alt=""></a></div>
-                                        <div><a href="<?php echo get_site_url();?>/government/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/government.svg" height="185" width="225" alt=""></a></div>
+                                            <div><a class="media_nav" href="<?php echo get_site_url();?>/the-media/"><img class="media_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="225" alt=""></a></div>
+                                            <div><a class="interest_nav" href="<?php echo get_site_url();?>/special-interest-groups/"><img class="interest_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="225" alt=""></a></div>
+                                            <div><a class="influencers_nav" href="<?php echo get_site_url();?>/social-influencers/"><img class="influencer_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/influencers.svg" height="185" width="225" alt=""></a></div>
+                                            <div><a class="government_nav" href="<?php echo get_site_url();?>/government/"><img class="government_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/government.svg" height="185" width="225" alt=""></a></div>
                                 </div>
                         </div>
 
@@ -67,24 +68,24 @@ get_header(); ?>
 
              
                 </section>
-                <div>
+                <!-- <div>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/hr.svg" alt="">
-                </div>
+                </div> -->
                 <div id="key__takeaways">
 
                     <h4>New Nations and Social Influencers: Key Take-aways</h4>
 
                     <div class="take__aways__blobs">
                         <div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/social_ta_beautiful.svg" height="auto" width="306" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/social_ta_beautiful.svg" height="432" width="354" alt="">
                             <p><b>Small is beautiful:</b> Micro influencers hold more sway over their geographic and interest-led communities than mega-influencers. Forget reach, engagement is key</p>
                         </div>
                         <div>
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/social_ta_authenticity.svg" height="auto" width="306" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/social_ta_authenticity.svg" height="432" width="354" alt="">
                                 <p><b>Authenticity is critical:</b> A cookie cutter approach to urban influencers will not work, and creativity needs to be brought to bear to tailor each partnership and maximize engagement</p>
                         </div>
                         <div>
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/social_ta_interaction.svg" height="auto" width="306" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/social_ta_interaction.svg" height="432" width="354" alt="">
                                 <p>Working with micro influencers affords opportunities for real world interaction – which also needs to be authentic and tailored to the city and community in question</p>
                         </div>
                     </div>
@@ -92,14 +93,15 @@ get_header(); ?>
                 </div>
 
                 <div class="contact">
-                    <div>
-                        <img src="<?php echo get_template_directory_uri();?>/assets/images/as/contact.svg" width="92" height="64" alt="">
+                        <div>
+                            <img src="<?php echo get_template_directory_uri();?>/assets/images/as/contact.svg" width="92" height="64" alt="">
+                        </div>
+                        <div>
+                                <p>For details of how to maximise your organisation’s influencer engagement, contact Anu Chowdhary</p>
+                                <a href="#"></a>
+                                <a href="mailto:Anu.Chowdhary@grayling.com">Anu.Chowdhary@grayling.com</a>
+                        </div>
                     </div>
-                    <div>
-                            <p>For more information on maximizing engagement<br/>with social influencers, contact us at: </p>
-                            <a href="#">email@grayling.com</a>
-                    </div>
-                </div>
 			</main> <!-- end #main -->
 		    
 		</div> <!-- end #inner-content -->

@@ -21,9 +21,10 @@ get_header(); ?>
                                         <img src="<?php echo get_template_directory_uri();?>/assets/images/as/nav-hr.png" alt="">
                                         <a href="<?php echo get_site_url();?>/conclusion-urban-opportunities/">CONCLUSIONS</a>
                                     </div>
-                                    <div><a href="<?php echo get_site_url();?>/the-media/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="225" alt=""></a></div>
-                                    <div><a href="<?php echo get_site_url();?>/social-influencers/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/influencers.svg" height="185" width="225" alt=""></a></div>
-                                    <div><a href="<?php echo get_site_url();?>/special-interest-groups/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="225" alt=""></a></div>
+                                    <div><a class="media_nav" href="<?php echo get_site_url();?>/the-media/"><img class="media_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="225" alt=""></a></div>
+                                    <div><a class="interest_nav" href="<?php echo get_site_url();?>/special-interest-groups/"><img class="interest_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="225" alt=""></a></div>
+                                    <div><a class="influencers_nav" href="<?php echo get_site_url();?>/social-influencers/"><img class="influencer_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/influencers.svg" height="185" width="225" alt=""></a></div>
+                                    <div><a class="government_nav" href="<?php echo get_site_url();?>/government/"><img class="government_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/government.svg" height="185" width="225" alt=""></a></div>
                                 </div>
                         </div>
 
@@ -72,24 +73,24 @@ get_header(); ?>
                 </div>    
                 </section>
 
-                <div>
+                <!-- <div>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/hr.svg" alt="">
-                </div>
+                </div> -->
                 <div id="key__takeaways">
 
                     <h4>New Nations and Government: Key Take-aways</h4>
 
                     <div class="take__aways__blobs">
                         <div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/gov_ta_official.svg" height="auto" width="306" alt="">
+                            <img class="gov_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/gov_ta_official.svg" height="432" width="354" alt="">
                             <p>The long-term trend of government decentralization the world over focuses more power and influence in the hands of cities – their mayors, elected representatives and officials</p>
                         </div>
                         <div>
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/gov_ta_vote.svg" height="306" width="408" alt="">
+                                <img class="gov_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/gov_ta_vote.svg" height="432" width="505" alt="">
                                 <p>In many cases, that influence is being exerted at national and even international levels, especially when national governments find themselves at odds with city populations on environmental and social policies</p>
                         </div>
                         <div>
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/gov_ta_technology.svg" height="306" width="496" alt="">
+                                <img class="gov_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/gov_ta_technology.svg" height="432" width="626" alt="">
                                 <p>Technological developments are not only making cities run better, faster and smarter, but are bringing elected representatives and their constituents closer together, making them more responsive and accountable</p>
                         </div>
                     </div>
@@ -97,14 +98,17 @@ get_header(); ?>
                 </div>
 
                 <div class="contact">
-                    <div>
-                        <img src="<?php echo get_template_directory_uri();?>/assets/images/as/contact.svg" width="92" height="64" alt="">
+                        <div>
+                            <img src="<?php echo get_template_directory_uri();?>/assets/images/as/contact.svg" width="92" height="64" alt="">
+                        </div>
+                        <div>
+                                <p>For details of how to maximise your organisation’s influence with city and national governments, contact Russell Patten</p>
+                                <a href="#">email@grayling.com</a>
+                        </div>
+                        <div>
+                            
+                        </div>
                     </div>
-                    <div>
-                            <p>For more information on maximizing engagement<br/>with social influencers, contact us at: </p>
-                            <a href="#">email@grayling.com</a>
-                    </div>
-                </div>
 			</main> <!-- end #main -->
 		    
 		</div> <!-- end #inner-content -->
