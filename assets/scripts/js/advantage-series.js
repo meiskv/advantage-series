@@ -132,7 +132,12 @@
           });
 
 
-
+          $(".scrolltop").on("click", function() {
+                console.log('clicked')
+                var header = $(".header");
+                $('html,body').animate({scrollTop: header.offset().top},'slow');
+                
+          });
     
     
     })( jQuery );

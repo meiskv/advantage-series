@@ -39,9 +39,9 @@ get_header(); ?>
                         <p><b>Cities are centers of cultural influence:</b> From high art to street culture, food to fashion, music to murals, <a href="https://www.britishcouncil.org/sites/default/files/g229_cities_paper.pdf">cultural trends</a> start in cities.
                         </p>
 
-                        <p><b>Cities are leading social change:</b> he juxtaposition of people of different cultures and the relative concentration of younger people puts cities at the leading edge of social change, be that the liberalization of abortion laws in Dublin or calls for gun control in New York City.</p>
+                        <p><b>Cities are leading social change:</b> he juxtaposition of people of different cultures and the <a href="www.nielsen.com/us/en/insights/news/2014/millennials-prefer-cities-to-suburbs-subways-to-driveways.html">relative concentration of younger people</a> puts cities at the leading edge of social change, be that the liberalization of abortion laws in Dublin or calls for gun control in New York City.</p>
 
-                        <p>It is therefore no surprise that in our #6into18 trends analysis, we identified cities as focal points for professional marketers and communicators, with city-focused campaigns even supplanting national or regional ones. If cities are where the people are, where the tastemakers are, and where the money is, why waste marketing dollars anywhere else?</p>
+                        <p>It is therefore no surprise that in our <a href="https://www.grayling.com/global/en/insight/six_things_every_professional_communicator_needs_to_know_for_2018">#6into18</a> trends analysis, we identified cities as focal points for professional marketers and communicators, with <a href="https://www.grayling.com/global/en/insight/hot_in_the_city">city-focused campaigns</a> even supplanting national or regional ones. If cities are where the people are, where the tastemakers are, and where the money is, why waste marketing dollars anywhere else?</p>
 
                         <p>But it’s not that simple.</p>
 

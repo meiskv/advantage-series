@@ -58,7 +58,7 @@ get_header(); ?>
                     <div>
                             <p><b class="description__header">Here today, still here tomorrow</b></p>
                             <p>Many special interest groups spring up overnight around specific issues, and can just as quickly dissolve (or mutate) once that issue has been resolved, others are as established as a city’s infrastructure.</p>
-                            <p>Chambers of Commerce, voluntary groups (like Rotary International), leisure interest groups (like sports and clubs) all have deep roots within their communities, strong ties to city government, the media and other networks, and the ability to shape opinions. Even as cities grow, the influences of such organizations is unlikely to be diminished.</p>
+                            <p>Chambers of Commerce, voluntary groups (like <a href="https://www.rotary.org">Rotary International</a>), leisure interest groups (like sports and clubs) all have deep roots within their communities, strong ties to city government, the media and other networks, and the ability to shape opinions. Even as cities grow, the influences of such organizations is unlikely to be diminished.</p>
                     </div>
                 </div>
 
