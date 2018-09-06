@@ -20,7 +20,7 @@ get_header(); ?>
                                         <div class="main-nav-links">
                                                 <a href="<?php echo get_site_url();?>">NEW NATIONS</a>
                                                 <img src="<?php echo get_template_directory_uri();?>/assets/images/as/nav-hr.png" alt="">
-                                                <a href="<?php echo get_site_url();?>/conclusion-urban-opportunities/">CONCLUSIONS</a>
+                                                <a href="<?php echo get_site_url();?>/conclusion-urban-opportunities/">CONCLUSION</a>
                                             </div>
                                             <div><a class="media_nav" href="<?php echo get_site_url();?>/the-media/"><img class="media_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="225" alt=""></a></div>
                                             <div><a class="interest_nav" href="<?php echo get_site_url();?>/special-interest-groups/"><img class="interest_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="225" alt=""></a></div>
@@ -47,7 +47,7 @@ get_header(); ?>
                                         <p>These are “people like me”, whose opinions on fashion, lifestyle, sports, music and other areas make them real taste-makers. Especially in cities. <a href="http://go2.experticity.com/rs/288-AZS-731/images/Experticity-KellerFaySurveySummary_.pdf?_ga=1.87127517.473796174.1467054656">Eighty-two per cent</a> of city dwellers say they would follow a recommendation to purchase from a micro-influencer, and influencer content can deliver an ROI that is as much as <a href="https://www.inc.com/bill-carmody/influencer-marketing-delivers-11x-roi-over-all-other-forms-of-digital-media.html">11 times higher</a> than traditional forms of digital marketing.</p>
                                         <br/>
                                         <p><b class="description__header">Keeping it real</b></p>
-                                        <p>The key to effective influencer partnerships is authenticity. In adopting a city-centric marketing or communications strategy, this means recognizing that one size does not fit all. There is no template that will work 100% for every city.</p>
+                                        <p>The key to effective influencer partnerships is authenticity. In adopting a city-centric marketing or communications strategy, this means recognising that one size does not fit all. There is no template that will work 100% for every city.</p>
                 
                                         <p>Just as every city is different, so too is every micro-influencer. And because they are less driven by the high fees demanded by their mega-influencer counterparts, success relies on creating some kind of value exchange, a genuine partnership that benefits their followers and communities, while simultaneously enhancing their reputations. For this, on-the-ground intelligence and creativity are essential.</p>
                                         <br/>
@@ -56,7 +56,7 @@ get_header(); ?>
                 
                                         <p>Grayling’s own <a href="https://www.grayling.com/us/en/series/influence-and-the-perfect-storm">#InsideInfluence</a> research in the US last year showed the enduring power of face-to-face recommendations, and <a href="http://go2.experticity.com/rs/288-AZS-731/images/Experticity-KellerFaySurveySummary_.pdf?_ga=1.87127517.473796174.1467054656">other research</a> bears this out.</p>
                 
-                                        <p>The opportunity, therefore, is to employ these micro-influencers as means of reaching urbanites in their geographic and / or interest-led communities, through real world events. This is especially important when one considers the widespread use of ‘<a href="https://www.grayling.com/global/en/insight/dark_social_the_untapped_opportunity">dark social</a>’ or private networks. Real world events are one way of drawing these networks into the light, and smart brands like Airbnb, Puma and others, are doing just this - building alliances with niche urban influencers and their tribes across the world, providing access to creative events and unique opportunities that deliver far-reaching cultural interactions and long-lasting brand affinity.</p>
+                                        <p>The opportunity, therefore, is to employ these micro-influencers as a means of reaching urbanites in their geographic and / or interest-led communities, through real world events. This is especially important when one considers the widespread use of ‘<a href="https://www.grayling.com/global/en/insight/dark_social_the_untapped_opportunity">dark social</a>’ or private networks. Real world events are one way of drawing these networks into the light, and smart brands like Airbnb, Puma and others, are doing just this - building alliances with niche urban influencers and their tribes across the world, providing access to creative events and unique opportunities that deliver far-reaching cultural interactions and long-lasting brand affinity.</p>
                                         
                                 </div>
 
@@ -82,7 +82,7 @@ get_header(); ?>
                         </div>
                         <div>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/social_ta_authenticity.svg" height="432" width="354" alt="">
-                                <p><b>Authenticity is critical:</b> A cookie cutter approach to urban influencers will not work, and creativity needs to be brought to bear to tailor each partnership and maximize engagement</p>
+                                <p><b>Authenticity is critical:</b> A cookie cutter approach to urban influencers will not work, and creativity needs to be brought to bear to tailor each partnership and maximise engagement</p>
                         </div>
                         <div>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/social_ta_interaction.svg" height="432" width="354" alt="">

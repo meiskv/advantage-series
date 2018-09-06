@@ -14,12 +14,12 @@ get_header(); ?>
                 <section id="media">
 
                 <div class="section_01">
-                                <div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/page-media.svg" height="467" width="342.37" alt=""></div>
+                                <div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/page_interest.svg" height="467" width="342.37" alt=""></div>
                                 <div class="top__navigation">
                                         <div class="main-nav-links">
                                                 <a href="<?php echo get_site_url();?>">NEW NATIONS</a>
                                                 <img src="<?php echo get_template_directory_uri();?>/assets/images/as/nav-hr.png" alt="">
-                                                <a href="<?php echo get_site_url();?>/conclusion-urban-opportunities/">CONCLUSIONS</a>
+                                                <a href="<?php echo get_site_url();?>/conclusion-urban-opportunities/">CONCLUSION</a>
                                             </div>
                                             <div><a class="media_nav" href="<?php echo get_site_url();?>/the-media/"><img class="media_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="225" alt=""></a></div>
                                             <div><a class="interest_nav" href="<?php echo get_site_url();?>/special-interest-groups/"><img class="interest_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="225" alt=""></a></div>
@@ -32,16 +32,16 @@ get_header(); ?>
                 <div class="section_02">
                         <div>
                         <h3>Special Interest Groups</h3>
-                        <h5>Cities are comprised of multiple networks, defined by their geographic locations, interests, or the causes around which they coalesce. Some of these are formal and well-established, others highly informal and ephemeral, but they all hold influence. Any organization pursuing a city-centric strategy ignores them at their peril.</h5>
+                        <h5>Cities are comprised of multiple networks, defined by their geographic locations, interests, or the causes around which they coalesce. Some of these are formal and well-established, others highly informal and ephemeral, but they all hold influence. Any organisation pursuing a city-centric strategy ignores them at their peril.</h5>
 
                         <p><b class="description__header">A two-way street</b></p>
-                        <p>People understandably feel passionately about local issues, or about the local impact of national policies and, given the chance to participate in meaningful engagement, will take every opportunity to do so. In the UK, Grayling’s State of Engagement report found that three quarters of people (75%) say it is important for local people to have a say on proposed housing and infrastructure projects, and a similar proportion (78%) believe it is important for local people to have a say on major changes to how health services are delivered locally. Surveys in other parts of the world deliver similar results.</p>
+                        <p>People understandably feel passionately about local issues, or about the local impact of national policies and, given the chance to participate in meaningful engagement, will take every opportunity to do so. In the UK, Grayling’s <a href="https://www.grayling.com/uk/en/news/state_of_engagement_why_digital_channels_and_young_people_may_hold_the_key_to_widening_participation">State of Engagement report</a> found that three quarters of people (75%) say it is important for local people to have a say on proposed housing and infrastructure projects, and a similar proportion (78%) believe it is important for local people to have a say on major changes to how health services are delivered locally. Surveys in other parts of the world deliver similar results.</p>
 
                         <p>Not only do people want and expect to be consulted, but technology makes it easier for this to happen. </p>
 
-                        <p>While once upon a time, ‘consultation’ may have meant a few notices in a public library, digital and social communication make it possible for organizations to have a genuine dialogue with the people whose lives may be affected by whatever initiatives they plan to introduce, from a re-organization of public services, to urban regeneration projects, to utility upgrades. Not only that, but public questions or concerns can be responded to in real time, as the consultation progresses. </p>
+                        <p>While once upon a time, ‘consultation’ may have meant a few notices in a public library, digital and social communication make it possible for organisations to have a genuine dialogue with the people whose lives may be affected by whatever initiatives they plan to introduce, from a re-organisation of public services, to urban regeneration projects, to utility upgrades. Not only that, but public questions or concerns can be responded to in real time, as the consultation progresses. </p>
 
-                        <p>This kind of engagement really is a two-way street. Social and digital communications now enable local groups to form and mobilize quickly, organizing themselves more professionally and efficiently than previously, which in turn means they are able to punch well above their weight when it comes to influencing change - without having to lie down in front of a bulldozer.</p>
+                        <p>This kind of engagement really is a two-way street. Social and digital communications now enable local groups to form and mobilise quickly, organising themselves more professionally and efficiently than previously, which in turn means they are able to punch well above their weight when it comes to influencing change - without having to lie down in front of a bulldozer.</p>
 
                         </div>
 
@@ -58,7 +58,7 @@ get_header(); ?>
                     <div>
                             <p><b class="description__header">Here today, still here tomorrow</b></p>
                             <p>Many special interest groups spring up overnight around specific issues, and can just as quickly dissolve (or mutate) once that issue has been resolved, others are as established as a city’s infrastructure.</p>
-                            <p>Chambers of Commerce, voluntary groups (like <a href="https://www.rotary.org">Rotary International</a>), leisure interest groups (like sports and clubs) all have deep roots within their communities, strong ties to city government, the media and other networks, and the ability to shape opinions. Even as cities grow, the influences of such organizations is unlikely to be diminished.</p>
+                            <p>Chambers of Commerce, voluntary groups (like <a href="https://www.rotary.org">Rotary International</a>), leisure interest groups (like sports clubs) all have deep roots within their communities, strong ties to city government, the media and other networks, and the ability to shape opinions. Even as cities grow, the influence of such organisations is unlikely to be diminished.</p>
                     </div>
                 </div>
 
@@ -69,7 +69,7 @@ get_header(); ?>
                 </div> -->
                 <div id="key__takeaways">
 
-                    <h4>New Nations and the Media: Key Take-Aways</h4>
+                    <h4>New Nations and Special Interest Groups: Key Take-Aways</h4>
 
                     <div class="take__aways__blobs">
                         <div>
@@ -93,8 +93,8 @@ get_header(); ?>
                             <img src="<?php echo get_template_directory_uri();?>/assets/images/as/contact.svg" width="92" height="64" alt="">
                         </div>
                         <div>
-                                <p>For details of how to maximis your organization’s influence with special interest groups, contact Kathryn Ager / Rikki Butler</p>
-                                <a href="#">email@grayling.com</a>
+                                <p>For details of how to maximis your organisation’s influence with special interest groups, contact Kathryn Ager</p>
+                                <a href="mailto:kathryn.ager@grayling.com">kathryn.ager@grayling.com</a>
                         </div>
                     </div>
 			</main> <!-- end #main -->

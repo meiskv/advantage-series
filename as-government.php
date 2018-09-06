@@ -19,7 +19,7 @@ get_header(); ?>
                                     <div class="main-nav-links">
                                         <a href="<?php echo get_site_url();?>">NEW NATIONS</a>
                                         <img src="<?php echo get_template_directory_uri();?>/assets/images/as/nav-hr.png" alt="">
-                                        <a href="<?php echo get_site_url();?>/conclusion-urban-opportunities/">CONCLUSIONS</a>
+                                        <a href="<?php echo get_site_url();?>/conclusion-urban-opportunities/">CONCLUSION</a>
                                     </div>
                                     <div><a class="media_nav" href="<?php echo get_site_url();?>/the-media/"><img class="media_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="225" alt=""></a></div>
                                     <div><a class="interest_nav" href="<?php echo get_site_url();?>/special-interest-groups/"><img class="interest_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="225" alt=""></a></div>
@@ -31,13 +31,13 @@ get_header(); ?>
 
                 <div class="section_02">
                         <div>
-                        <h3>Government</h3>
-                        <h5>Major cities have huge economic clout, and with that comes political influence. Across the world, city mayors have considerable strategic and executive powers, meaning decisions about everything from the public realm to inward investment policies can lie in the hands of one woman or man and a small group of advisors. How can those decisions be influenced and leveraged is a fundamental question for many.</h5>
+                        <h3>City Government</h3>
+                        <h5>Major cities have huge economic clout, and with that comes political influence. Across the world, city mayors have considerable strategic and executive powers, meaning decisions about everything from the public realm to inward investment policies can lie in the hands of one woman or man and a small group of advisors. How those decisions can be influenced and leveraged, is a fundamental question for many.</h5>
 
-                        <p><b class="description__header">Decentralization</b></p>
-                        <p>Achieving the optimum balance of power between national and local government is an issue with which countries around the world have wrestled for decades. It is not limited to big countries, or large economies, and no country is a completely unified state – every state is at least composed of municipalities as decentralized units. The degree to which power is decentralized or devolved varies dramatically between nations (as do the motivations), but the consensus is that since the 1980s trend the world over has been towards increased decentralization. According to the <a href="https://www.oecd.org/regional/regional-policy/Decentralisation-trends-in-OECD-countries.pdf">OECD</a>, as of 2016 there were almost 138,000 sub-national governments in the OECD’s 35 member countries alone.  And there can be little doubt that this trend has at least in part been driven by the increasing economic power of cities.</p>
+                        <p><b class="description__header">Decentralisation</b></p>
+                        <p>Achieving the optimum balance of power between national and local government is an issue with which countries around the world have wrestled for decades. It is not limited to big countries, or large economies, and no country is a completely unified state – every state is at least composed of municipalities as decentralised units. The degree to which power is decentralised or devolved varies dramatically between nations (as do the motivations), but the consensus is that since the 1980s trend the world over has been towards increased decentralisation. According to the <a href="https://www.oecd.org/regional/regional-policy/Decentralisation-trends-in-OECD-countries.pdf">OECD</a>, as of 2016 there were almost 138,000 sub-national governments in the OECD’s 35 member countries alone.  And there can be little doubt that this trend has at least in part been driven by the increasing economic power of cities.</p>
 
-                        <p>But this decentralization creates an inevitable tension between national governments which, generally speaking, want to maximize political and fiscal control, and cities, which have a strong sense of identity and recognize the leverage they have as a result of their economic clout. </p>
+                        <p>But this decentralisation creates an inevitable tension between national governments which, generally speaking, want to maximise political and fiscal control, and cities, which have a strong sense of identity and recognise the leverage they have as a result of their economic clout. </p>
 
                         <p>This tension manifests itself in many ways, but no more so than when cities are at odds with the policies of national government.</p>
 
@@ -63,7 +63,7 @@ get_header(); ?>
 
                         <p>As noted in Grayling’s <a href="www.grayling.com/gb/me_myself_and_ai/kathryn-ager">‘Me, Myself and AI’</a> report, many local governments are experimenting with new technologies that make them both more accessible and more accountable. While cybersecurity remains the biggest expenditure, we have also seen the introduction of chatbots, greater use of the cloud, and even some forays into artificial intelligence, all intended to improve the running of cities. Meanwhile, connected technologies being applied are turning cities into <a href="https://statetechmagazine.com/article/2017/10/smart-cities-week-2017-how-4-it-leaders-made-effective-smart-city-infrastructure">smart cities</a>, making them safer, more energy efficient, and better connected. </p>
 
-                        <p>But beyond the actual running of cities, technology can also bring people and their elected representatives closer together. Most politicians are savvy enough to recognize the benefits of having a dialogue with their constituents through social media platforms, and online petitions give people the opportunity to bring to the attention of city councils, issues that might not otherwise receive air time.</p>
+                        <p>But beyond the actual running of cities, technology can also bring people and their elected representatives closer together. Most politicians are savvy enough to recognise the benefits of having a dialogue with their constituents through social media platforms, and online petitions give people the opportunity to bring to the attention of city councils, issues that might not otherwise receive air time.</p>
                                 
                         </div>
 
@@ -78,12 +78,12 @@ get_header(); ?>
                 </div> -->
                 <div id="key__takeaways">
 
-                    <h4>New Nations and Government: Key Take-Aways</h4>
+                    <h4>New Nations and City Government: Key Take-Aways</h4>
 
                     <div class="take__aways__blobs">
                         <div>
                             <img class="gov_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/gov_ta_official.svg" height="432" width="354" alt="">
-                            <p>The long-term trend of government decentralization the world over focuses <b>more power and influence</b> in the hands of cities – their mayors, elected representatives and officials</p>
+                            <p>The long-term trend of government decentralisation the world over focuses <b>more power and influence</b> in the hands of cities – their mayors, elected representatives and officials</p>
                         </div>
                         <div>
                                 <img class="gov_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/gov_ta_vote.svg" height="432" width="354" alt="">
@@ -103,7 +103,7 @@ get_header(); ?>
                         </div>
                         <div>
                                 <p>For details of how to maximise your organisation’s influence with city and national governments, contact Russell Patten</p>
-                                <a href="#">email@grayling.com</a>
+                                <a href="mailto:russell.patten@grayling.com">russell.patten@grayling.com</a>
                         </div>
                         <div>
 

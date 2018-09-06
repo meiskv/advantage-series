@@ -19,7 +19,7 @@ get_header(); ?>
                                 <div class="main-nav-links">
                                         <a href="<?php echo get_site_url();?>">NEW NATIONS</a>
                                         <img src="<?php echo get_template_directory_uri();?>/assets/images/as/nav-hr.png" alt="">
-                                        <a href="<?php echo get_site_url();?>/conclusion-urban-opportunities/">CONCLUSIONS</a>
+                                        <a href="<?php echo get_site_url();?>/conclusion-urban-opportunities/">CONCLUSION</a>
                                     </div>
                                     <div><a class="media_nav" href="<?php echo get_site_url();?>/the-media/"><img class="media_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="225" alt=""></a></div>
                                     <div><a class="interest_nav" href="<?php echo get_site_url();?>/special-interest-groups/"><img class="interest_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="225" alt=""></a></div>
@@ -44,7 +44,7 @@ get_header(); ?>
 
                             <p>There are also challenges and risks to a city-first approach to marketing communications: While more than half of the world’s population lives in cities, what about the other 45%? As we have noted, there are significant divisions between urban and rural communities on a range of issues, and overt city-first strategies risk alienating non-city dwellers. </p>
 
-                            <p>Successful marketers must recognize the power inherent in ‘the new nations’, and understand the care and attention required to leverage the different spheres of influences.</p>
+                            <p>Successful marketers must recognise the power inherent in ‘the new nations’, and understand the care and attention required to leverage the different spheres of influences.</p>
                         
                             
                         </div>

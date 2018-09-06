@@ -109,6 +109,8 @@ $gray: #707070;
 
     .conclusions__content__wrapper{
         padding-top: 0rem;
+        position: relative;
+        z-index: 5;
     }
     
 }
@@ -237,6 +239,14 @@ p{
     @include breakpoint(medium down) {
         padding: 0;
     }
+    // @include breakpoint(small only) {
+    //     overflow: hidden;
+    //     height: 240px;
+    // }
+    // @include breakpoint(large only) {
+    //     overflow: hidden;
+    //     height: 540px;
+    // }
 }
 
 
@@ -535,13 +545,16 @@ hr{
     width: 100%;
     background: #fff;
     position: relative;
+    @include breakpoint(small only) {
+        min-height: 220px;
+    }
+    @include breakpoint(medium only) {
+        min-height: 220px;
+    }
     @include breakpoint(large only) {
         min-height: 500px;
     }
-    @include breakpoint(medium down) {
-        min-height: 220px;
-    }
-    @include breakpoint(xxlarge down) {
+    @include breakpoint(xxlarge only) {
         min-height: 680px;
     }
     @include breakpoint(onesix only) {
@@ -701,5 +714,7 @@ hr{
 
     .conclusions__content__wrapper{
         padding-top: 0rem;
+        position: relative;
+        z-index: 5;
     }
 }

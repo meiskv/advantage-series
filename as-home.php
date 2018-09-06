@@ -27,25 +27,25 @@ get_header(); ?>
                         <h4>Cities are the new nations.<br/>That may sound like a bold statement, but consider the evidence.</h4>
                         <p><b>More of us are city dwellers:</b> For the first time in history, more people live in urban areas than not. According to the <a href="http://www.un.org/en/development/desa/population/publications/pdf/urbanization/the_worlds_cities_in_2016_data_booklet.pdf">United Nations</a>, 54.5% of the world’s population lives in urban areas, a proportion that is expected to increase to 60% by 2030, by which time one in three people on the planet will live in a city of at least half a million inhabitants.</p>
 
-                        <p><b>There are more cities than ever: </b>Cities are increasing in number. In 2016 there were an <a href="http://www.un.org/en/development/desa/population/publications/pdf/urbanization/the_worlds_cities_in_2016_data_booklet.pdf"></a> 1,063 settlements of more than half a million people; by 2030 there are forecast to be almost 1,400, housing more than five billion people.
+                        <p><b>There are more cities than ever: </b>Cities are increasing in number. In 2016 there were an <a href="http://www.un.org/en/development/desa/population/publications/pdf/urbanization/the_worlds_cities_in_2016_data_booklet.pdf">estimated</a> 1,063 settlements of more than half a million people; by 2030 it is forecasted to be almost 1,400, housing more than five billion people.
                         </p>
 
                         <p><b>Cities are getting bigger:</b> Not only is the number of cities increasing, they are <a href="http://www.un.org/en/development/desa/population/publications/pdf/urbanization/the_worlds_cities_in_2016_data_booklet.pdf">increasing in size</a>. By 2030, there will be ten more ‘megacities’, cities with populations over 10 million, than there are today.
                         </p>
 
-                        <p><b>Cities are economic powerhouses:</b> <a href="https://www.mckinsey.com/~/media/mckinsey/featured%20insights/Urbanization/Urban%20world/MGI_urban_world_mapping_economic_power_of_cities_exec_summary.ashx"></a> estimates that by 2025, the world’s 600 top earning cities by contribution to global GDP will have economies worth $64 trillion, almost 60% of global GDP.
+                        <p><b>Cities are economic powerhouses:</b> <a href="https://www.mckinsey.com/~/media/mckinsey/featured%20insights/Urbanization/Urban%20world/MGI_urban_world_mapping_economic_power_of_cities_exec_summary.ashx">McKinsey</a>  estimates that by 2025, the world’s 600 top earning cities by contribution to global GDP will have economies worth $64 trillion, almost 60% of global GDP.
                         </p>
 
-                        <p><b>Cities are centers of cultural influence:</b> From high art to street culture, food to fashion, music to murals, <a href="https://www.britishcouncil.org/sites/default/files/g229_cities_paper.pdf">cultural trends</a> start in cities.
+                        <p><b>Cities are centres of cultural influence:</b> From high art to street culture, food to fashion, music to murals, <a href="https://www.britishcouncil.org/sites/default/files/g229_cities_paper.pdf">cultural trends</a> start in cities.
                         </p>
 
-                        <p><b>Cities are leading social change:</b> he juxtaposition of people of different cultures and the <a href="www.nielsen.com/us/en/insights/news/2014/millennials-prefer-cities-to-suburbs-subways-to-driveways.html">relative concentration of younger people</a> puts cities at the leading edge of social change, be that the liberalization of abortion laws in Dublin or calls for gun control in New York City.</p>
+                        <p><b>Cities are leading social change:</b> The juxtaposition of people of different cultures and the <a href="www.nielsen.com/us/en/insights/news/2014/millennials-prefer-cities-to-suburbs-subways-to-driveways.html">relative concentration of younger people</a> puts cities at the leading edge of social change, be that the liberalisation of abortion laws in Dublin or calls for gun control in New York City.</p>
 
                         <p>It is therefore no surprise that in our <a href="https://www.grayling.com/global/en/insight/six_things_every_professional_communicator_needs_to_know_for_2018">#6into18</a> trends analysis, we identified cities as focal points for professional marketers and communicators, with <a href="https://www.grayling.com/global/en/insight/hot_in_the_city">city-focused campaigns</a> even supplanting national or regional ones. If cities are where the people are, where the tastemakers are, and where the money is, why waste marketing dollars anywhere else?</p>
 
                         <p>But it’s not that simple.</p>
 
-                        <p>Much like countries, no two cities are the same. In New Nations, we look at the four overlapping spheres of influence at play and offer clues for navigating them.</p>
+                        <p>Much like countries, no two cities are the same. In New Nations, we look at the four <a href="javascript:void(0);" class="animScroll">overlapping spheres of influence</a> at play and offer clues for navigating them.</p>
 
                         <div class="meta__handle">
                             <div>
