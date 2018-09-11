@@ -20,10 +20,10 @@
 						
 						<div class="small-12 medium-12 large-12 cell">
 
-							<div class="bottom__header">
+							<!-- <div class="bottom__header">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/grayling-logo.png" style="width: 207px; height: 21px;" alt="">
 								<div class="copyrights">Terms and Conditions  |  Privacy Policy  |  Cookie Policy  |  Copyright © 2018 Grayling</div>
-							</div> 
+							</div>  -->
 
 						</div>
 					

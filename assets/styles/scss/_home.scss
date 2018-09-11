@@ -284,7 +284,7 @@ p{
     @include breakpoint(medium down) {
         width: 100%;
     }
-    @include breakpoint(large down) {
+    @include breakpoint(large up) {
         width: 100%;
     }
     img{
@@ -301,12 +301,18 @@ p{
         @include breakpoint(onesix down) {
             margin-top: 8rem;
         }
+        
+    }
+    .interest__img{
+        @include breakpoint(large up) {
+            right: -13rem;
+        }
     }
 }
 
 
 .news__tv{
-    margin: 9rem 0;
+    margin: 0rem 0;
     @include breakpoint(medium down) {
         margin: 3rem 0;
     }
@@ -321,7 +327,7 @@ p{
 }
 
 .conclusions__content__wrapper{
-    margin-top: 35vh;
+
     @include breakpoint(medium down) {
         margin-top: 0;
     }
@@ -368,7 +374,7 @@ hr{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    padding-top: 4.5rem;
+    // padding-top: 4.5rem;
     align-items: flex-start;
     @include breakpoint(medium down) {
         padding-top: 0;
@@ -509,9 +515,8 @@ hr{
 }
 
 .conclusions_hero{
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
+    left: -6.6rem;
     @include breakpoint(medium down) {
         position: relative;
         padding: 0;
@@ -657,27 +662,14 @@ hr{
     margin-top: 0;
     position: relative;
     z-index: 99;
+    display:flex;
+    justify-content: space-between;
     @include breakpoint(medium down) {
-        margin-top: 18rem;
+        flex-direction: column;
     }
-    @include breakpoint(large down) {
-        margin-top: 28rem;
-        
-    }
-    @include breakpoint(xxlarge down) {
-        margin-top: 0rem;
-    }
-
     .top__navigation{
         padding-left: 0;
-        @include breakpoint(xxlarge only) {
-            padding-left: 40rem;
-            
-        }
-        @include breakpoint(onesix only) {
-            padding-left: 40rem;
-            
-        }
+        
     }
 }
 
@@ -691,6 +683,17 @@ hr{
         justify-content: center;
         padding-right: 3rem;
         padding-left: 3rem;
+    }
+}
+
+.main__nav__home__footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 0 3rem 0;
+    @include breakpoint(medium down) {
+        justify-content: center;
+        padding: 0 0.5rem 0 0.5rem;
     }
 }
 

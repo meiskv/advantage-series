@@ -13,10 +13,12 @@ get_header(); ?>
                 
 
                 <div class="main__nav__home">
-                        <div><a class="media_nav" href="<?php echo get_site_url();?>/the-media/"><img class="media_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="225" alt=""></a></div>
-                        <div><a class="interest_nav" href="<?php echo get_site_url();?>/special-interest-groups/"><img class="interest_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="225" alt=""></a></div>
-                        <div><a class="influencers_nav" href="<?php echo get_site_url();?>/social-influencers/"><img class="influencer_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/influencers.svg" height="185" width="225" alt=""></a></div>
-                        <div><a class="government_nav" href="<?php echo get_site_url();?>/government/"><img class="government_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/government.svg" height="185" width="225" alt=""></a></div>
+                        <!-- <div><a class="home_nav" href="<?php echo get_site_url();?>"><img class="home_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/home.svg" height="185" width="185" alt=""></a></div> -->
+                        <div><a class="media_nav" href="<?php echo get_site_url();?>/the-media/"><img class="media_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="185" alt=""></a></div>
+                        <div><a class="interest_nav" href="<?php echo get_site_url();?>/special-interest-groups/"><img class="interest_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="185" alt=""></a></div>
+                        <div><a class="influencers_nav" href="<?php echo get_site_url();?>/social-influencers/"><img class="influencer_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/influencers.svg" height="185" width="185" alt=""></a></div>
+                        <div><a class="government_nav" href="<?php echo get_site_url();?>/government/"><img class="government_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/government.svg" height="185" width="185" alt=""></a></div>
+                        <div><a class="conclusion_nav" href="<?php echo get_site_url();?>/conclusion-urban-opportunities/"><img class="conclusion_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/conclusion.svg" height="185" width="185" alt=""></a></div>
                 </div>
 				
                 <section id="intro">
@@ -20921,6 +20923,15 @@ get_header(); ?>
                         </div>
                         <div>SCROLL TOP</div>
                     </div>
+
+                    <div class="main__nav__home__footer">
+                        <!-- <div><a class="home_nav" href="<?php echo get_site_url();?>"><img class="home_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/home.svg" height="185" width="185" alt=""></a></div> -->
+                        <div><a class="media_nav" href="<?php echo get_site_url();?>/the-media/"><img class="media_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="185" alt=""></a></div>
+                        <div><a class="interest_nav" href="<?php echo get_site_url();?>/special-interest-groups/"><img class="interest_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="185" alt=""></a></div>
+                        <div><a class="influencers_nav" href="<?php echo get_site_url();?>/social-influencers/"><img class="influencer_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/influencers.svg" height="185" width="185" alt=""></a></div>
+                        <div><a class="government_nav" href="<?php echo get_site_url();?>/government/"><img class="government_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/government.svg" height="185" width="185" alt=""></a></div>
+                        <div><a class="conclusion_nav" href="<?php echo get_site_url();?>/conclusion-urban-opportunities/"><img class="conclusion_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/conclusion.svg" height="185" width="185" alt=""></a></div>
+                </div>
 			</main> <!-- end #main -->
 		    
 		</div> <!-- end #inner-content -->

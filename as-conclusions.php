@@ -14,23 +14,19 @@ get_header(); ?>
                 <section id="media">
 
                 <div class="section_01_conclusions">
-                        
+                        <div class="conclusions_hero"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/page_conclusions.jpg" width="711" height="556" alt=""></div>
                         <div class="top__navigation">
-                                <div class="main-nav-links">
-                                        <a href="<?php echo get_site_url();?>">NEW NATIONS</a>
-                                        <img src="<?php echo get_template_directory_uri();?>/assets/images/as/nav-hr.png" alt="">
-                                        <a href="<?php echo get_site_url();?>/conclusion-urban-opportunities/">CONCLUSION</a>
-                                    </div>
-                                    <div><a class="media_nav" href="<?php echo get_site_url();?>/the-media/"><img class="media_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="225" alt=""></a></div>
-                                    <div><a class="interest_nav" href="<?php echo get_site_url();?>/special-interest-groups/"><img class="interest_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="225" alt=""></a></div>
-                                    <div><a class="influencers_nav" href="<?php echo get_site_url();?>/social-influencers/"><img class="influencer_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/influencers.svg" height="185" width="225" alt=""></a></div>
-                                    <div><a class="government_nav" href="<?php echo get_site_url();?>/government/"><img class="government_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/government.svg" height="185" width="225" alt=""></a></div>
+                                <div><a class="home_nav" href="<?php echo get_site_url();?>"><img class="home_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/home.svg" height="185" width="185" alt=""></a></div>
+                                <div><a class="media_nav" href="<?php echo get_site_url();?>/the-media/"><img class="media_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="185" alt=""></a></div>
+                                <div><a class="interest_nav" href="<?php echo get_site_url();?>/special-interest-groups/"><img class="interest_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="185" alt=""></a></div>
+                                <div><a class="influencers_nav" href="<?php echo get_site_url();?>/social-influencers/"><img class="influencer_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/influencers.svg" height="185" width="185" alt=""></a></div>
+                                <div><a class="government_nav" href="<?php echo get_site_url();?>/government/"><img class="government_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/government.svg" height="185" width="185" alt=""></a></div>
                         </div>
                 </div>
 
 
                 <div class="section_02">
-                        <div class="conclusions_hero"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/page_conclusions.jpg" alt=""></div>
+                        
                         <div class="conclusions__content__wrapper">
                             <h3>Conclusion: Urban Opportunities</h3>
                             <h5>Brands and corporations are waking up to the opportunities inherent in the emergence of cities as ‘the news nations’</h5>
@@ -67,6 +63,14 @@ get_header(); ?>
                                 <a href="mailto:jon.meakin@grayling.com">jon.meakin@grayling.com</a>
                         </div>
                     </div>
+
+                    <div class="main__nav__home__footer">
+                        <div><a class="home_nav" href="<?php echo get_site_url();?>"><img class="home_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/home.svg" height="185" width="185" alt=""></a></div>
+                        <div><a class="media_nav" href="<?php echo get_site_url();?>/the-media/"><img class="media_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media.svg" height="185" width="185" alt=""></a></div>
+                        <div><a class="interest_nav" href="<?php echo get_site_url();?>/special-interest-groups/"><img class="interest_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest.svg" height="185" width="185" alt=""></a></div>
+                        <div><a class="influencers_nav" href="<?php echo get_site_url();?>/social-influencers/"><img class="influencer_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/influencers.svg" height="185" width="185" alt=""></a></div>
+                        <div><a class="government_nav" href="<?php echo get_site_url();?>/government/"><img class="government_nav_img" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/government.svg" height="185" width="185" alt=""></a></div>
+                </div>
 			</main> <!-- end #main -->
 		    
 		</div> <!-- end #inner-content -->
