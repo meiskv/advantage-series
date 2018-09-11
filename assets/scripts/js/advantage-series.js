@@ -27,55 +27,119 @@
         //     }
         //   );
 
-        $(Social_Influencers)
-        .on( "mouseenter", function() {
-            TweenMax.set([The_Media,Government,City_Dwellers,Special_Interest_Groups],{autoAlpha:0})
-            TweenMax.fromTo([Social_Influencers],0.7,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
-            TweenMax.to('.social',1,{zIndex:2,autoAlpha:1, ease:Expo.easeInOut})
+        var clickVal = false;
+        var windowWidth = window.innerWidth;
 
-            // TweenMax.set('.base',{autoAlpha:0})
-        })
-        .on( "mouseleave", function() {
-            TweenMax.set([The_Media,Government,City_Dwellers,Special_Interest_Groups],{autoAlpha:1})
-            TweenMax.set('.social',{zIndex:0, opacity: 0})
-            // TweenMax.set('.base',{autoAlpha:1})
-        });
+        if(windowWidth<=414){
+            $(Social_Influencers).click(function(event) {
+                if(clickVal!=true){
+                    clickVal = true;
+                    TweenMax.set([The_Media,Government,City_Dwellers,Special_Interest_Groups],{autoAlpha:0})
+                    TweenMax.fromTo([Social_Influencers],0.7,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
+                    TweenMax.to('.social',1,{zIndex:2,autoAlpha:1, ease:Expo.easeInOut})
+                }else if(clickVal===true){
+                    clickVal = false;
+                    TweenMax.set([The_Media,Government,City_Dwellers,Special_Interest_Groups],{autoAlpha:1})
+                    TweenMax.set('.social',{zIndex:0, opacity: 0})
+                }
+            });
+            //  SOCIAL INFLUENCERS ===================
+    
+    
+            $(Special_Interest_Groups).click(function(event) {
+                if(clickVal!=true){
+                    clickVal = true;
+                    TweenMax.set([Social_Influencers,The_Media,Government],{autoAlpha:0})
+                    TweenMax.fromTo([Special_Interest_Groups],0.7,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
+                    TweenMax.to('.sig',1,{zIndex:1,autoAlpha:1, ease:Expo.easeInOut})
+                }else if(clickVal===true){
+                    clickVal = false;
+                    TweenMax.set([Social_Influencers,The_Media,Government],{autoAlpha:1})
+                    TweenMax.set('.sig',{zIndex:0, opacity: 0})
+                }
+            });
+            //  Special Interest ===================
+    
+            $(City_Dwellers).click(function(event) {
+                if(clickVal!=true){
+                    clickVal = true;
+                    TweenMax.set([Social_Influencers,The_Media,Special_Interest_Groups,Government,City_Dwellers],{autoAlpha:0})
+                    TweenMax.fromTo([City_Dwellers],0.5,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
+                    TweenMax.to('.city',1,{zIndex:1,autoAlpha:1, ease:Expo.easeInOut})
+                }else if(clickVal===true){
+                    clickVal = false;
+                    TweenMax.set([Social_Influencers,The_Media,Special_Interest_Groups,Government,City_Dwellers],{autoAlpha:1})
+                    TweenMax.set('.city',{zIndex:0, opacity: 0})
+                }
+            });
+            //  City Dwellers ===================
+    
+            $(The_Media).click(function(event) {
+                if(clickVal!=true){
+                    clickVal = true;
+                    TweenMax.set([Social_Influencers,Special_Interest_Groups,Government,City_Dwellers],{autoAlpha:0})
+                    TweenMax.fromTo([The_Media],0.5,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
+                    TweenMax.to('.media',1,{zIndex:1,autoAlpha:1, ease:Expo.easeInOut})
+                }else if(clickVal===true){
+                    clickVal = false;
+                    TweenMax.set([Social_Influencers,Special_Interest_Groups,Government,City_Dwellers],{autoAlpha:1})
+                    TweenMax.set('.media',{zIndex:0, opacity: 0})
+                }
+            });
+            //  The Media ===================
+        }else{
+            $(Social_Influencers)
+            .on( "mouseenter", function() {
+                TweenMax.set([The_Media,Government,City_Dwellers,Special_Interest_Groups],{autoAlpha:0})
+                TweenMax.fromTo([Social_Influencers],0.7,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
+                TweenMax.to('.social',1,{zIndex:2,autoAlpha:1, ease:Expo.easeInOut})
+    
+                // TweenMax.set('.base',{autoAlpha:0})
+            })
+            .on( "mouseleave", function() {
+                TweenMax.set([The_Media,Government,City_Dwellers,Special_Interest_Groups],{autoAlpha:1})
+                TweenMax.set('.social',{zIndex:0, opacity: 0})
+                // TweenMax.set('.base',{autoAlpha:1})
+            });
+            $(Special_Interest_Groups)
+            .on( "mouseenter", function() {
+                TweenMax.set([Social_Influencers,The_Media,Government],{autoAlpha:0})
+                TweenMax.fromTo([Special_Interest_Groups],0.7,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
+                TweenMax.to('.sig',1,{zIndex:1,autoAlpha:1, ease:Expo.easeInOut})
+            })
+            .on( "mouseleave", function() {
+                TweenMax.set([Social_Influencers,The_Media,Government],{autoAlpha:1})
+                TweenMax.set('.sig',{zIndex:0, opacity: 0})
+                
+            });
+            $(City_Dwellers)
+            .on( "mouseenter", function() {
+                TweenMax.set([Social_Influencers,The_Media,Special_Interest_Groups,Government,City_Dwellers],{autoAlpha:0})
+                TweenMax.fromTo([City_Dwellers],0.5,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
+                TweenMax.to('.city',1,{zIndex:1,autoAlpha:1, ease:Expo.easeInOut})
+            })
+            .on( "mouseleave", function() {
+                TweenMax.set([Social_Influencers,The_Media,Special_Interest_Groups,Government,City_Dwellers],{autoAlpha:1})
+                TweenMax.set('.city',{zIndex:0, opacity: 0})
+            });
+            $(The_Media)
+            .on( "mouseenter", function() {
+                TweenMax.set([Social_Influencers,Special_Interest_Groups,Government,City_Dwellers],{autoAlpha:0})
+                TweenMax.fromTo([The_Media],0.5,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
+                TweenMax.to('.media',1,{zIndex:1,autoAlpha:1, ease:Expo.easeInOut})
+            })
+            .on( "mouseleave", function() {
+                TweenMax.set([Social_Influencers,Special_Interest_Groups,Government,City_Dwellers],{autoAlpha:1})
+                TweenMax.set('.media',{zIndex:0, opacity: 0})
+                
+            });
+        }
 
-        $(Special_Interest_Groups)
-        .on( "mouseenter", function() {
-            TweenMax.set([Social_Influencers,The_Media,Government],{autoAlpha:0})
-            TweenMax.fromTo([Special_Interest_Groups],0.7,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
-            TweenMax.to('.sig',1,{zIndex:1,autoAlpha:1, ease:Expo.easeInOut})
-            
-        })
-        .on( "mouseleave", function() {
-            TweenMax.set([Social_Influencers,The_Media,Government],{autoAlpha:1})
-            TweenMax.set('.sig',{zIndex:0, opacity: 0})
-            
-        });
 
-        $(City_Dwellers)
-        .on( "mouseenter", function() {
-            TweenMax.set([Social_Influencers,The_Media,Special_Interest_Groups,Government,City_Dwellers],{autoAlpha:0})
-            TweenMax.fromTo([City_Dwellers],0.5,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
-            TweenMax.to('.city',1,{zIndex:1,autoAlpha:1, ease:Expo.easeInOut})
-        })
-        .on( "mouseleave", function() {
-            TweenMax.set([Social_Influencers,The_Media,Special_Interest_Groups,Government,City_Dwellers],{autoAlpha:1})
-            TweenMax.set('.city',{zIndex:0, opacity: 0})
-        });
 
-        $(The_Media)
-        .on( "mouseenter", function() {
-            TweenMax.set([Social_Influencers,Special_Interest_Groups,Government,City_Dwellers],{autoAlpha:0})
-            TweenMax.fromTo([The_Media],0.5,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
-            TweenMax.to('.media',1,{zIndex:1,autoAlpha:1, ease:Expo.easeInOut})
-        })
-        .on( "mouseleave", function() {
-            TweenMax.set([Social_Influencers,Special_Interest_Groups,Government,City_Dwellers],{autoAlpha:1})
-            TweenMax.set('.media',{zIndex:0, opacity: 0})
-            
-        });
+
+
+
 
         // NAVIGATION
 
