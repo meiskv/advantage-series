@@ -573,21 +573,53 @@ hr{
     width: 100%;
     background: #fff;
     position: relative;
-    @include breakpoint(small only) {
-        min-height: 220px;
+    @media only screen and (max-width: 640px) and (min-width: 0)  {
+        min-height: 230px;
     }
-    @include breakpoint(medium only) {
-        min-height: 220px;
+    @media only screen and (max-width: 640px) and (min-width: 450px)  {
+        min-height: 330px;
     }
-    @include breakpoint(large only) {
+
+    @media only screen and (max-width: 700px) and (min-width: 600px)  {
+        min-height: 360px;
+    }
+
+    @media only screen and (max-width: 800px) and (min-width: 700px)  {
+        min-height: 440px;
+    }
+
+    @media only screen and (max-width: 900px) and (min-width: 800px)  {
+        min-height: 540px;
+    }
+
+    @media only screen and (max-width: 1000px) and (min-width: 900px)  {
+        min-height: 570px;
+    }
+
+    @media only screen and (max-width: 1100px) and (min-width: 1000px)  {
         min-height: 500px;
     }
-    @include breakpoint(xxlarge only) {
-        min-height: 680px;
+
+    @media only screen and (max-width: 1300px) and (min-width: 1100px)  {
+        min-height: 620px;
     }
-    @include breakpoint(onesix only) {
+
+    @media only screen and (max-width: 1500px) and (min-width: 1300px)  {
+        min-height: 730px;
+    }
+
+    @media only screen and (max-width: 1700px) and (min-width: 1500px)  {
         min-height: 840px;
     }
+
+    @media only screen and (max-width: 1900px) and (min-width: 1700px)  {
+        min-height: 940px;
+    }
+
+    // @media only screen and (max-width: 1679px) and (min-width: 1200px)  {
+    //     min-height: 720px;
+    // }
+    
 
     .full{
         position: absolute;
