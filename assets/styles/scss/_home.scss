@@ -40,6 +40,7 @@ $gray: #707070;
             @include breakpoint(medium down) {
                 text-align: center;
                 margin-top: 0.5rem;
+                font: 500 0.75rem/100% "futura-pt", AppleGothic, sans-serif;
             }
         }
     }
@@ -176,7 +177,7 @@ h1,h2,h3,h4,h5{
 h1{
     font: 900 3.75rem/100% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     @include breakpoint(medium down) {
-        font: 900 1.7rem/100% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+        font: 900 1.7rem/100% "futura-pt", AppleGothic, sans-serif;
     }
 }
 
@@ -184,7 +185,7 @@ h3{
     font: 900 3.75rem/100% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     margin-top: 2rem;
     @include breakpoint(medium down) {
-        font: 900 1.7rem/100% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+        font: 900 1.7rem/100% "futura-pt", AppleGothic, sans-serif;
     }
 }
 
@@ -192,19 +193,25 @@ h4{
     font: 900 1.875rem/100% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     padding: 0.5rem 0;
     @include breakpoint(medium down) {
-        font: 900 1.375rem/100% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+        font: 900 1.375rem/100% "futura-pt", AppleGothic, sans-serif;
     }
 }
 
 h5{
     font: 900 1rem/130% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     padding: 1.5rem 0;
+    @include breakpoint(medium down) {
+        font: 900 1rem/130% "futura-pt", AppleGothic, sans-serif;
+    }
 }
 
 p{
     font: 300 0.9375rem/100% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     line-height: 1.3rem;
     color: $gray;
+    @include breakpoint(medium down) {
+        font: 300 0.9375rem/100% "futura-pt", AppleGothic, sans-serif;
+    }
 }
 
 .meta__handle{
@@ -222,12 +229,18 @@ p{
     h2{
         font: 700 1.125rem/100% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
         color: $blue;
+        @include breakpoint(medium down) {
+            font: 700 1.125rem/100% "futura-pt", AppleGothic, sans-serif;
+        }
         
     }
     h5{
         font: italic 500 1.125rem/100% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
         color: $blue; 
         padding: 0;
+        @include breakpoint(medium down) {
+            font: italic 500 1.125rem/100% "futura-pt", AppleGothic, sans-serif;
+        }
     }
 }
 
@@ -393,7 +406,7 @@ hr{
     p{
         font: 200 1.25rem/130% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
         @include breakpoint(medium down) {
-            font: 200 0.9rem/130% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+            font: 200 0.9rem/130% "futura-pt", AppleGothic, sans-serif;
             
         }
     }
@@ -442,6 +455,10 @@ hr{
     a{
         font: 900 1rem/130% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
         color: $blue;
+        @include breakpoint(medium only) {
+            font: 900 1rem/130% "futura-pt", AppleGothic, sans-serif;
+        }
+
     }
     div:nth-child(1){
         margin-bottom: 2rem;
@@ -497,6 +514,9 @@ hr{
     a{
         font: 900 1rem/130% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
         color: $blue;
+        @include breakpoint(medium down) {
+            font: 900 1rem/130% "futura-pt", AppleGothic, sans-serif;
+        }
     }
     div:nth-child(1){
         margin-bottom: 2rem;
@@ -645,8 +665,11 @@ hr{
     margin-right: 3rem;
     margin-left: 0rem;
     a{
-        font: 900 0.75rem/130% Century Gothic,CenturyGothic,AppleGothic,sans-serif;    
+        font: 900 0.75rem/130% Century Gothic,CenturyGothic,AppleGothic,sans-serif;
         color: $gray;
+        @include breakpoint(medium down) {
+            font: 900 0.75rem/130% "futura-pt", AppleGothic, sans-serif;
+        }
     }
     img{
         height: 1px;

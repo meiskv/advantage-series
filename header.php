@@ -29,7 +29,7 @@
 	    <?php } ?>
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-
+		<link rel="stylesheet" href="https://use.typekit.net/lwf3cqg.css">
 		<?php wp_head(); ?>
 
 	</head>
