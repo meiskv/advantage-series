@@ -34,7 +34,7 @@ get_header(); ?>
             
                                     <p>Print media, once the dominant source of news and information, has been in a long slow decline <a href="http://www.journalism.org/fact-sheet/newspapers/">by almost every metric</a>. Circulations of daily newspapers’ print editions are falling at a rate of around 10% a year; newsrooms have shed tens of thousands of journalism jobs; and the number of actual newspapers is in decline, too. Local news is the main victim of this, as running local newsrooms or employing local reporters becomes less economically viable. <a href="https://www.nytimes.com/2016/05/06/business/media/britain-new-day-newspaper-close.html">Attempts</a> to make print millennial-friendly have fallen flat. </p>
             
-                                    <p>But while print may be dead (or at least dying), newspapers and magazines are <i>brands</i>. And strong brands are very hard to kill. </p>
+                                    <p>But while print may be dead (or at least dying), newspapers and magazines are <b><i>brands</i></b>. And strong brands are very hard to kill. </p>
             
                                     <p>Media brands have, over many years and with varying degrees of success, been transitioning to a digital-first model. Major media brands like The New York Times and Financial Times continue to see quarter on <a href="https://www.statista.com/chart/8859/digital-news-subscribers/">quarter increases</a> in digital paid subscriptions, which off-set the declines not just in print sales, but also in ad revenue. Deloitte <a href="https://www2.deloitte.com/content/dam/Deloitte/global/Images/infographics/technologymediatelecommunications/gx-deloitte-tmt-2018-digital-media-report.pdf">estimates</a> that while in 2012 the ad to subscription revenue ratio was 90:10, by 2020 it is more likely to be 50:50. </p>
             
@@ -46,13 +46,19 @@ get_header(); ?>
             
                                     <p>The simple fact is that ‘national’ media really speaks to people in cities.</p>
                                    
-                                    <img class="news__tv" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media_news_tv.svg" height="auto" width="90%" alt="">
+                                    <div class="tech-enabled">
+                                        <img class="news__tv" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media_news_tv.svg" height="auto" width="90%" alt="">
+                                        
+                                        <p>
+                                        <br/><b class="description__header">Tech-enabled targeting</b></p>
+                                        <p>Social media platforms have led the way in geo-targeted advertising, that is, ads served up to people based on their location, as well as their personal preferences revealed through their search and other online behaviours. And as geo-targeting has become more sophisticated, and more accurate, Facebook and Google have swept up greater proportions of the available ad revenue – more than 60% in the US in 2017, according to <a href="https://www.emarketer.com/Article/Google-Facebook-Tighten-Grip-on-US-Digital-Ad-Market/1016494">eMarketer</a>. 
+                                        </p>
+                                        <p>But other media are catching up, and experimenting with different forms of geo-targeting, such as customised push notifications, social media posts, and home pages.</p>
+                                        <p>‘Local’ is as important as it ever was, it just means something different now.</p>
+                                    </div>
 
-                                    <p><b class="description__header">Tech-enabled targeting</b></p>
-                                    <p>Social media platforms have led the way in geo-targeted advertising, that is, ads served up to people based on their location, as well as their personal preferences revealed through their search and other online behaviours. And as geo-targeting has become more sophisticated, and more accurate, Facebook and Google have swept up greater proportions of the available ad revenue – more than 60% in the US in 2017, according to <a href="https://www.emarketer.com/Article/Google-Facebook-Tighten-Grip-on-US-Digital-Ad-Market/1016494">eMarketer</a>. 
-                                    </p>
-                                    <p>But other media are catching up, and experimenting with different forms of geo-targeting, such as customised push notifications, social media posts, and home pages.</p>
-                                    <p>‘Local’ is as important as it ever was, it just means something different now.</p>
+
+
                             </div>
                             <div class="tv__heroes">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media_tv.svg" height="1592" alt="">
@@ -61,6 +67,16 @@ get_header(); ?>
                                             <p>Platforms like BuzzFeed have evolved from publishers of quirky content to media giants in their own right, breaking hard news stories and disrupting the media landscape by delivering engaging content in a way that is geared towards the video-snacking habits of digital natives on the move.</p>
                                             <p>And while the financial viability of the likes of BuzzFeed, Vox, Vice Media and Mashable has been <a href="https://www.ft.com/content/482dc54a-1594-11e8-9376-4a6390addb44">called into question</a>, as one after the other has missed its targets, their success with younger city dwellers is hard to argue with. This is due in part to the fact that unlike <a href="https://en.wikipedia.org/wiki/The_New_York_Times">‘The Gray Lady’</a>, these media were founded in the digital age, and in the social media age. They recognised early on the habits of their target audience and the importance of social media. An <a href="blog.naytev.com/images/posts/buzzfeed/buzzfeed_networks.png">estimated</a> 80% of BuzzFeed’s reach exists beyond its website, on its apps, on social media platforms, messaging apps and video syndication partners. This gives them not just incredible reach, but also engagement – consumers of these media do not have to visit one site to access the content they want; that content is served up to them, on whatever channels they happen to prefer.</p>
                                             <p>This model creates a tremendous potential for geo-targeting.</p>
+                            </div>
+
+                            <div class="tech-enabled-mobile">
+                                <img class="news__tv" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/media_news_tv.svg" height="auto" width="90%" alt="">
+                                <p>
+                                <br/><b class="description__header">Tech-enabled targeting</b></p>
+                                <p>Social media platforms have led the way in geo-targeted advertising, that is, ads served up to people based on their location, as well as their personal preferences revealed through their search and other online behaviours. And as geo-targeting has become more sophisticated, and more accurate, Facebook and Google have swept up greater proportions of the available ad revenue – more than 60% in the US in 2017, according to <a href="https://www.emarketer.com/Article/Google-Facebook-Tighten-Grip-on-US-Digital-Ad-Market/1016494">eMarketer</a>. 
+                                </p>
+                                <p>But other media are catching up, and experimenting with different forms of geo-targeting, such as customised push notifications, social media posts, and home pages.</p>
+                                <p>‘Local’ is as important as it ever was, it just means something different now.</p>
                             </div>
 
                     </div>

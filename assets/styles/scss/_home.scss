@@ -5,6 +5,9 @@ $pink: #ED0059;
 $blue: #13294B;
 $gray: #707070;
 
+a{
+    font-weight: bold;
+}
 
 .top__header{
     background: $pink;
@@ -113,7 +116,21 @@ $gray: #707070;
         position: relative;
         z-index: 5;
     }
-    
+    .tech-enabled{
+        width: 100%;
+        max-width: 100%;
+        @include breakpoint(large down) {
+            display: none;
+        }
+    }
+    .tech-enabled-mobile{
+        @include breakpoint(large down) {
+            display: inline-block;
+        }
+        @include breakpoint(fullwidthas down) {
+            display: none;
+        }
+    }
 }
 
 .section_03{
