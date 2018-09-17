@@ -147,11 +147,11 @@
         .on( "mouseenter", function() {
             TweenMax.fromTo([The_Media],0.5,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
             TweenMax.to('.media',1,{zIndex:1,autoAlpha:1, ease:Expo.easeInOut})
-            $('.media_nav_img').attr('src','http://as.gcreativelab.com/wp-content/themes/advantage-series/assets/images/as/media_hover.svg')
+            $('.media_nav_img').attr('src','https://as.grayling.com/wp-content/themes/advantage-series/assets/images/as/media_hover.svg')
         })
         .on( "mouseleave", function() {
             TweenMax.set('.media',{zIndex:0, opacity: 0}) 
-            $('.media_nav_img').attr('src','http://as.gcreativelab.com/wp-content/themes/advantage-series/assets/images/as/media.svg')
+            $('.media_nav_img').attr('src','https://as.grayling.com/wp-content/themes/advantage-series/assets/images/as/media.svg')
         });
 
         $('.interest_nav')
@@ -159,13 +159,13 @@
             TweenMax.set([Social_Influencers,The_Media],{autoAlpha:0})
             TweenMax.fromTo([Special_Interest_Groups],0.5,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
             TweenMax.to('.sig',1,{zIndex:1,autoAlpha:1, ease:Expo.easeInOut})
-            $('.interest_nav_img').attr('src','http://as.gcreativelab.com/wp-content/themes/advantage-series/assets/images/as/interest_hover.svg')
+            $('.interest_nav_img').attr('src','https://as.grayling.com/wp-content/themes/advantage-series/assets/images/as/interest_hover.svg')
             
         })
         .on( "mouseleave", function() {
             TweenMax.set([Social_Influencers,The_Media],{autoAlpha:1})
             TweenMax.set('.sig',{zIndex:0, opacity: 0})
-            $('.interest_nav_img').attr('src','http://as.gcreativelab.com/wp-content/themes/advantage-series/assets/images/as/interest.svg')
+            $('.interest_nav_img').attr('src','https://as.grayling.com/wp-content/themes/advantage-series/assets/images/as/interest.svg')
         });
 
         $('.influencers_nav')
@@ -173,36 +173,36 @@
             TweenMax.set([The_Media,Government],{autoAlpha:0})
             TweenMax.fromTo([Social_Influencers],0.5,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
             TweenMax.to('.social',1,{zIndex:1,autoAlpha:1, ease:Expo.easeInOut})
-            $('.influencer_nav_img').attr('src','http://as.gcreativelab.com/wp-content/themes/advantage-series/assets/images/as/influencers_hover.svg')
+            $('.influencer_nav_img').attr('src','https://as.grayling.com/wp-content/themes/advantage-series/assets/images/as/influencers_hover.svg')
         })
         .on( "mouseleave", function() {
             TweenMax.set([The_Media,Government],{autoAlpha:1})
             TweenMax.set('.social',{zIndex:0, opacity: 0})
-            $('.influencer_nav_img').attr('src','http://as.gcreativelab.com/wp-content/themes/advantage-series/assets/images/as/influencers.svg')
+            $('.influencer_nav_img').attr('src','https://as.grayling.com/wp-content/themes/advantage-series/assets/images/as/influencers.svg')
         });
 
         $('.government_nav')
         .on( "mouseenter", function() {
-            $('.government_nav_img').attr('src','http://as.gcreativelab.com/wp-content/themes/advantage-series/assets/images/as/government_hover.svg')
+            $('.government_nav_img').attr('src','https://as.grayling.com/wp-content/themes/advantage-series/assets/images/as/government_hover.svg')
         })
         .on( "mouseleave", function() {
-            $('.government_nav_img').attr('src','http://as.gcreativelab.com/wp-content/themes/advantage-series/assets/images/as/government.svg')
+            $('.government_nav_img').attr('src','https://as.grayling.com/wp-content/themes/advantage-series/assets/images/as/government.svg')
         });
 
         $('.home_nav')
         .on( "mouseenter", function() {
-            $('.home_nav_img').attr('src','http://as.gcreativelab.com/wp-content/themes/advantage-series/assets/images/as/home_hover.svg')
+            $('.home_nav_img').attr('src','https://as.grayling.com/wp-content/themes/advantage-series/assets/images/as/home_hover.svg')
         })
         .on( "mouseleave", function() {
-            $('.home_nav_img').attr('src','http://as.gcreativelab.com/wp-content/themes/advantage-series/assets/images/as/home.svg')
+            $('.home_nav_img').attr('src','https://as.grayling.com/wp-content/themes/advantage-series/assets/images/as/home.svg')
         });
 
         $('.conclusion_nav')
         .on( "mouseenter", function() {
-            $('.conclusion_nav_img').attr('src','http://as.gcreativelab.com/wp-content/themes/advantage-series/assets/images/as/conclusion_hover.svg')
+            $('.conclusion_nav_img').attr('src','https://as.grayling.com/wp-content/themes/advantage-series/assets/images/as/conclusion_hover.svg')
         })
         .on( "mouseleave", function() {
-            $('.conclusion_nav_img').attr('src','http://as.gcreativelab.com/wp-content/themes/advantage-series/assets/images/as/conclusion.svg')
+            $('.conclusion_nav_img').attr('src','https://as.grayling.com/wp-content/themes/advantage-series/assets/images/as/conclusion.svg')
         });
 
 
