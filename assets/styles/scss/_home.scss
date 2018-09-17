@@ -33,7 +33,7 @@ a{
     } /* IE10 */
 *::-ms-backdrop, .full{
     position: absolute;
-    top: -34px;
+    top: -34px !important;
     bottom: 0;
     right: 0;
     left: 0;
