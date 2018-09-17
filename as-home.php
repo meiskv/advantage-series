@@ -24,7 +24,7 @@ get_header(); ?>
                 <section id="intro">
 
                     
-                    <div>
+                    <div class="new-nations">
                         <h1>New Nations</h1>
                         <h4>Cities are the new nations.<br/>That may sound like a bold statement, but consider the evidence.</h4>
                         <p><b>More of us are city dwellers:</b> For the first time in history, more people live in urban areas than not. According to the <a href="http://www.un.org/en/development/desa/population/publications/pdf/urbanization/the_worlds_cities_in_2016_data_booklet.pdf">United Nations</a>, 54.5% of the world’s population lives in urban areas, a proportion that is expected to increase to 60% by 2030, by which time one in three people on the planet will live in a city of at least half a million inhabitants.</p>
