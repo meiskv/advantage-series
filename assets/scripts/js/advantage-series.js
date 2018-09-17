@@ -87,6 +87,20 @@
                 }
             });
             //  The Media ===================
+
+            $(The_Media).click(function(event) {
+                if(clickVal!=true){
+                    clickVal = true;
+                    TweenMax.set([The_Media,Social_Influencers,Special_Interest_Groups,City_Dwellers],{autoAlpha:0})
+                    TweenMax.fromTo([Government],0.5,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
+                    TweenMax.to('.government',1,{zIndex:1,autoAlpha:1, ease:Expo.easeInOut})
+                }else if(clickVal===true){
+                    clickVal = false;
+                    TweenMax.set([The_Media,Social_Influencers,Special_Interest_Groups,City_Dwellers],{autoAlpha:1})
+                    TweenMax.set('.government',{zIndex:0, opacity: 0})
+                }
+            });
+            //  City Government ===================
         }else{
             $(Social_Influencers)
             .on( "mouseenter", function() {
@@ -131,6 +145,17 @@
             .on( "mouseleave", function() {
                 TweenMax.set([Social_Influencers,Special_Interest_Groups,Government,City_Dwellers],{autoAlpha:1})
                 TweenMax.set('.media',{zIndex:0, opacity: 0})
+                
+            });
+            $(Government)
+            .on( "mouseenter", function() {
+                TweenMax.set([The_Media,Social_Influencers,Special_Interest_Groups,City_Dwellers],{autoAlpha:0})
+                TweenMax.fromTo([Government],0.5,{y:30,repeat: 0,autoAlpha: 0},{y:0,ease:Back.easeOut,repeat: 0,autoAlpha:1})
+                TweenMax.to('.government',1,{zIndex:1,autoAlpha:1, ease:Expo.easeInOut})
+            })
+            .on( "mouseleave", function() {
+                TweenMax.set([The_Media,Social_Influencers,Special_Interest_Groups,City_Dwellers],{autoAlpha:1})
+                TweenMax.set('.government',{zIndex:0, opacity: 0})
                 
             });
         }

@@ -20895,6 +20895,7 @@ get_header(); ?>
                             <img class="full sig" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/anim/sig_hover.png" alt="">
                             <img class="full city" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/anim/city_hover.png" alt="">
                             <img class="full media" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/anim/media_hover.png" alt="">
+                            <img class="full government" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/anim/government_hover.png" alt="">
                     </div>
                     <!-- Animation Ends -->
 
