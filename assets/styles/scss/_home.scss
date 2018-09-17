@@ -22,6 +22,24 @@ a{
     }
 }
 
+@media all and (-ms-high-contrast:none)
+{
+    .full{
+        position: absolute;
+        top: -34px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    } /* IE10 */
+*::-ms-backdrop, .full{
+    position: absolute;
+    top: -34px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    } /* IE11 */
+}
+
 // .new-nations{
 //     max-width: 50%;
 //     @include breakpoint(small down) {
