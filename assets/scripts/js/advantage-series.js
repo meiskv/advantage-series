@@ -88,7 +88,7 @@
             });
             //  The Media ===================
 
-            $(The_Media).click(function(event) {
+            $(Government).click(function(event) {
                 if(clickVal!=true){
                     clickVal = true;
                     TweenMax.set([The_Media,Social_Influencers,Special_Interest_Groups,City_Dwellers],{autoAlpha:0})
