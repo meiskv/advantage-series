@@ -102,6 +102,23 @@
             });
             //  City Government ===================
         }else{
+
+            $(The_Media).click(function(event){
+                window.location.href = 'https://as.grayling.com/the-media/';                
+            });
+
+            $(Social_Influencers).click(function(event){
+                window.location.href = 'https://as.grayling.com/social-influencers/';                
+            });
+
+            $(Special_Interest_Groups).click(function(event){
+                window.location.href = 'https://as.grayling.com/special-interest-groups/';                
+            });
+
+            $(Government).click(function(event){
+                window.location.href = 'https://as.grayling.com/government/';                
+            });
+
             $(Social_Influencers)
             .on( "mouseenter", function() {
                 TweenMax.set([The_Media,Government,City_Dwellers,Special_Interest_Groups],{autoAlpha:0})
