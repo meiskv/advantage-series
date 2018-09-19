@@ -90,7 +90,7 @@ get_header(); ?>
                             <img src="<?php echo get_template_directory_uri();?>/assets/images/as/contact.svg" width="92" height="64" alt="">
                         </div>
                         <div>
-                                <p>For details of how to maximis your organisation’s influence with special interest groups, contact Kathryn Ager</p>
+                                <p>For details of how to maximise your organisation’s influence with special interest groups, contact Kathryn Ager</p>
                                 <a href="mailto:kathryn.ager@grayling.com">kathryn.ager@grayling.com</a>
                         </div>
                     </div>
