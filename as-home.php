@@ -54,7 +54,7 @@ get_header(); ?>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/as/jon_meakin.png" alt="">
                             </div>
                             <div>
-                                <h2>John Meakin</h2>
+                                <h2>Jon Meakin</h2>
                                 <h5>Global Head of Strategic Services - Grayling</h5>
                             </div>
                         </div>
