@@ -53,7 +53,7 @@ get_header(); ?>
                             <img class="news__tv" src="<?php echo get_template_directory_uri(); ?>/assets/images/as/interest_comm.svg" height="620.09" width="668.64" alt="">
                     </div>
                     <div>
-                            <p><b class="description__header">Here today, still here tomorrow</b></p>
+                            <p><b class="description__header">  rrow</b></p>
                             <p>Many special interest groups spring up overnight around specific issues, and can just as quickly dissolve (or mutate) once that issue has been resolved, others are as established as a city’s infrastructure.</p>
                             <p>Chambers of Commerce, voluntary groups (like <a href="https://www.rotary.org">Rotary International</a>), leisure interest groups (like sports clubs) all have deep roots within their communities, strong ties to city government, the media and other networks, and the ability to shape opinions. Even as cities grow, the influence of such organisations is unlikely to be diminished.</p>
                     </div>

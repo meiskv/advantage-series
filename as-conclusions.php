@@ -29,7 +29,7 @@ get_header(); ?>
                         
                         <div class="conclusions__content__wrapper">
                             <h3>Conclusion: Urban Opportunities</h3>
-                            <h5>Brands and corporations are waking up to the opportunities inherent in the emergence of cities as ‘the news nations’</h5>
+                            <h5>Brands and corporations are waking up to the opportunities inherent in the emergence of cities as ‘the new nations’</h5>
 
                         <p>The sheer population density of cities obviously has its attractions when thinking about marketing and communications in terms of ‘cost per thousand’. </p>
 
